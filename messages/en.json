@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "title": "Roberto Justo | IT Portfolio",
+    "description": "Professional portfolio of Roberto Justo - IT specialist with extensive experience in software development and technology solutions."
+  },
+  "nav": {
+    "home": "Home",
+    "personal": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "curiosities": "Curiosities"
+  },
+  "header": {
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "selectLanguage": "Select language"
+  },
+  "footer": {
+    "madeBy": "Developed by",
+    "allRights": "All rights reserved.",
+    "language": "Language"
+  },
+  "home": {
+    "title": "Home",
+    "heroTitle": "Hello, I'm",
+    "heroName": "Roberto Justo",
+    "heroSubtitle": "IT Professional & Software Developer",
+    "heroDescription": "Passionate about technology, innovation and creating solutions that make a difference. With years of experience in the IT industry, I transform complex challenges into elegant solutions.",
+    "storiesTitle": "My Journey",
+    "storiesSubtitle": "Key milestones in my career",
+    "summaryTitle": "Professional Summary",
+    "summaryText": "IT professional with solid experience in software development, systems architecture, and technology solutions. Throughout my career, I have worked on challenging projects across various sectors, always seeking innovation and excellence in every delivery. My approach combines deep technical knowledge with the ability to understand business needs, resulting in solutions that truly add value.",
+    "summaryHighlight1": "Years of Experience",
+    "summaryHighlight2": "Completed Projects",
+    "summaryHighlight3": "Technologies Mastered",
+    "summaryHighlight4": "Satisfied Clients",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me",
+    "stories": {
+      "story1": { "title": "Career Beginning", "year": "2015", "description": "First steps in the IT world" },
+      "story2": { "title": "First Major Project", "year": "2016", "description": "Leading a development team" },
+      "story3": { "title": "Specialization", "year": "2017", "description": "Deep dive into new technologies" },
+      "story4": { "title": "International Experience", "year": "2018", "description": "Working with global teams" },
+      "story5": { "title": "Tech Lead", "year": "2019", "description": "Leading technical architecture" },
+      "story6": { "title": "Innovation Award", "year": "2020", "description": "Recognized for innovative solution" },
+      "story7": { "title": "New Horizons", "year": "2022", "description": "Exploring new frontiers" },
+      "story8": { "title": "Current", "year": "2024", "description": "Continuing to evolve and innovate" }
+    }
+  },
+  "personal": {
+    "title": "About Me",
+    "subtitle": "Get to know my story and trajectory",
+    "bio": "IT professional passionate about technology and innovation. Throughout my career, I have developed unique skills that allow me to tackle complex challenges with creativity and efficiency.",
+    "timelineTitle": "My Timeline",
+    "timelineSubtitle": "Milestones in my journey",
+    "info": {
+      "location": "Location",
+      "locationValue": "Brazil",
+      "education": "Education",
+      "educationValue": "Computer Science Degree",
+      "experience": "Experience",
+      "experienceValue": "8+ years in IT",
+      "languages": "Languages",
+      "languagesValue": "Portuguese, English, Spanish"
+    },
+    "timeline": {
+      "event1": { "date": "2015", "title": "University", "description": "Started Computer Science degree" },
+      "event2": { "date": "2016", "title": "First Internship", "description": "Joined a tech company as an intern" },
+      "event3": { "date": "2017", "title": "Junior Developer", "description": "Got first full-time position" },
+      "event4": { "date": "2018", "title": "Mid-Level Developer", "description": "Promoted and took on more responsibilities" },
+      "event5": { "date": "2019", "title": "Graduation", "description": "Completed university degree with honors" },
+      "event6": { "date": "2020", "title": "Senior Developer", "description": "Promoted to senior role" },
+      "event7": { "date": "2022", "title": "Tech Lead", "description": "Started leading technical teams" },
+      "event8": { "date": "2024", "title": "Current Role", "description": "Leading innovative projects" }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Key projects I've contributed to",
+    "viewMore": "View Details",
+    "technologies": "Technologies Used",
+    "role": "My Role",
+    "duration": "Duration",
+    "project1": {
+      "name": "E-Commerce Platform",
+      "description": "Complete e-commerce platform with payment integration, inventory management and real-time analytics dashboard.",
+      "role": "Full Stack Developer",
+      "duration": "12 months",
+      "techs": "React, Node.js, PostgreSQL, AWS"
+    },
+    "project2": {
+      "name": "Enterprise CRM System",
+      "description": "Custom CRM system for a large corporation, improving customer relationship management and sales tracking.",
+      "role": "Backend Lead",
+      "duration": "18 months",
+      "techs": "Java, Spring Boot, Angular, Oracle"
+    },
+    "project3": {
+      "name": "Mobile Banking App",
+      "description": "Native mobile application for digital banking with biometric authentication and real-time transactions.",
+      "role": "Mobile Developer",
+      "duration": "10 months",
+      "techs": "React Native, TypeScript, Firebase"
+    },
+    "project4": {
+      "name": "IoT Monitoring Dashboard",
+      "description": "Real-time monitoring platform for IoT devices with alerting system and data visualization.",
+      "role": "Frontend Lead",
+      "duration": "8 months",
+      "techs": "Vue.js, Python, MQTT, InfluxDB"
+    },
+    "project5": {
+      "name": "AI Content Platform",
+      "description": "Content management platform with AI-powered recommendations and automated categorization.",
+      "role": "Tech Lead",
+      "duration": "14 months",
+      "techs": "Next.js, Python, TensorFlow, GCP"
+    },
+    "project6": {
+      "name": "Logistics Management System",
+      "description": "End-to-end logistics platform for fleet management, route optimization and delivery tracking.",
+      "role": "Solutions Architect",
+      "duration": "20 months",
+      "techs": "Microservices, Kubernetes, Go, React"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technical and personal competencies",
+    "technicalTitle": "Technical Skills",
+    "personalTitle": "Personal Skills",
+    "technical": {
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "mobile": "Mobile Development",
+      "database": "Databases",
+      "cloud": "Cloud & DevOps",
+      "architecture": "Software Architecture"
+    },
+    "personalSkills": {
+      "leadership": "Leadership",
+      "leadershipDesc": "Experience leading multidisciplinary teams",
+      "communication": "Communication",
+      "communicationDesc": "Clear and effective communication at all levels",
+      "problemSolving": "Problem Solving",
+      "problemSolvingDesc": "Analytical approach to complex challenges",
+      "teamwork": "Teamwork",
+      "teamworkDesc": "Excellent collaboration and team engagement",
+      "adaptability": "Adaptability",
+      "adaptabilityDesc": "Quick to adapt to new technologies and environments",
+      "creativity": "Creativity",
+      "creativityDesc": "Innovative thinking and creative solutions"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's connect and work together",
+    "formTitle": "Send me a message",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "info": {
+      "emailTitle": "Email",
+      "emailValue": "roberto@example.com",
+      "phoneTitle": "Phone",
+      "phoneValue": "+55 (11) 99999-9999",
+      "locationTitle": "Location",
+      "locationValue": "São Paulo, Brazil",
+      "linkedinTitle": "LinkedIn",
+      "githubTitle": "GitHub"
+    },
+    "successMessage": "Message sent successfully!",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your@email.com",
+    "subjectPlaceholder": "Subject of message",
+    "messagePlaceholder": "Your message..."
+  },
+  "curiosities": {
+    "title": "Curiosities",
+    "subtitle": "Fun facts and interests about me",
+    "items": {
+      "item1": { "title": "Coffee Lover", "description": "I consume approximately 5 cups of coffee per day to fuel my coding sessions." },
+      "item2": { "title": "Early Adopter", "description": "I love testing new technologies and tools as soon as they are released." },
+      "item3": { "title": "Open Source", "description": "I actively contribute to open source projects in my free time." },
+      "item4": { "title": "Gaming", "description": "A strategy game enthusiast, I find parallels between gaming and problem-solving in development." },
+      "item5": { "title": "Travel", "description": "I've visited over 10 countries, and each trip inspires new ideas for my projects." },
+      "item6": { "title": "Music", "description": "I always code with music on. My playlist ranges from lo-fi to electronic." },
+      "item7": { "title": "Fitness", "description": "I believe a healthy body leads to a productive mind. I practice regular exercise." },
+      "item8": { "title": "Continuous Learning", "description": "I dedicate at least 1 hour per day to learning something new in technology." }
+    }
+  }
+}

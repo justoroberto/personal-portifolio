@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "Роберто Жусто | IT-Портфолио",
+    "description": "Профессиональное портфолио Роберто Жусто - IT-специалист с обширным опытом в разработке программного обеспечения и технологических решениях."
+  },
+  "nav": {
+    "home": "Главная",
+    "personal": "Обо Мне",
+    "projects": "Проекты",
+    "skills": "Навыки",
+    "contact": "Контакты",
+    "curiosities": "Интересные Факты"
+  },
+  "header": {
+    "menu": "Меню",
+    "closeMenu": "Закрыть меню",
+    "selectLanguage": "Выбрать язык"
+  },
+  "footer": {
+    "madeBy": "Разработано",
+    "allRights": "Все права защищены.",
+    "language": "Язык"
+  },
+  "home": {
+    "title": "Главная",
+    "heroTitle": "Привет, я",
+    "heroName": "Роберто Жусто",
+    "heroSubtitle": "IT-профессионал и разработчик ПО",
+    "heroDescription": "Увлечён технологиями, инновациями и созданием решений, которые имеют значение. С многолетним опытом в IT-индустрии я превращаю сложные задачи в элегантные решения.",
+    "storiesTitle": "Мой Путь",
+    "storiesSubtitle": "Ключевые вехи моей карьеры",
+    "summaryTitle": "Профессиональное Резюме",
+    "summaryText": "IT-профессионал с солидным опытом в разработке программного обеспечения, системной архитектуре и технологических решениях. Мой подход сочетает глубокие технические знания со способностью понимать потребности бизнеса.",
+    "summaryHighlight1": "Лет Опыта",
+    "summaryHighlight2": "Завершённых Проектов",
+    "summaryHighlight3": "Освоенных Технологий",
+    "summaryHighlight4": "Довольных Клиентов",
+    "viewProjects": "Посмотреть Проекты",
+    "contactMe": "Связаться со Мной",
+    "stories": {
+      "story1": { "title": "Начало Карьеры", "year": "2015", "description": "Первые шаги в мире IT" },
+      "story2": { "title": "Первый Крупный Проект", "year": "2016", "description": "Руководство командой разработки" },
+      "story3": { "title": "Специализация", "year": "2017", "description": "Углубление в новые технологии" },
+      "story4": { "title": "Международный Опыт", "year": "2018", "description": "Работа с глобальными командами" },
+      "story5": { "title": "Tech Lead", "year": "2019", "description": "Руководство технической архитектурой" },
+      "story6": { "title": "Награда за Инновации", "year": "2020", "description": "Признание за инновационное решение" },
+      "story7": { "title": "Новые Горизонты", "year": "2022", "description": "Исследование новых границ" },
+      "story8": { "title": "Настоящее", "year": "2024", "description": "Продолжаю развиваться и внедрять инновации" }
+    }
+  },
+  "personal": {
+    "title": "Обо Мне",
+    "subtitle": "Узнайте мою историю и путь",
+    "bio": "IT-профессионал, увлечённый технологиями и инновациями. На протяжении своей карьеры я развил уникальные навыки, которые позволяют мне решать сложные задачи с креативностью и эффективностью.",
+    "timelineTitle": "Моя Хронология",
+    "timelineSubtitle": "Вехи моего пути",
+    "info": {
+      "location": "Местоположение", "locationValue": "Бразилия",
+      "education": "Образование", "educationValue": "Степень в области информатики",
+      "experience": "Опыт", "experienceValue": "8+ лет в IT",
+      "languages": "Языки", "languagesValue": "Португальский, Английский, Испанский"
+    },
+    "timeline": {
+      "event1": { "date": "2015", "title": "Университет", "description": "Начало изучения информатики" },
+      "event2": { "date": "2016", "title": "Первая Стажировка", "description": "Вступление в технологическую компанию" },
+      "event3": { "date": "2017", "title": "Junior Разработчик", "description": "Первая штатная позиция" },
+      "event4": { "date": "2018", "title": "Middle Разработчик", "description": "Повышение с большей ответственностью" },
+      "event5": { "date": "2019", "title": "Выпуск", "description": "Окончание университета с отличием" },
+      "event6": { "date": "2020", "title": "Senior Разработчик", "description": "Повышение до senior позиции" },
+      "event7": { "date": "2022", "title": "Tech Lead", "description": "Начало руководства техническими командами" },
+      "event8": { "date": "2024", "title": "Текущая Позиция", "description": "Руководство инновационными проектами" }
+    }
+  },
+  "projects": {
+    "title": "Проекты",
+    "subtitle": "Ключевые проекты, в которых я участвовал",
+    "viewMore": "Подробнее",
+    "technologies": "Используемые Технологии",
+    "role": "Моя Роль",
+    "duration": "Длительность",
+    "project1": { "name": "Платформа E-Commerce", "description": "Полная платформа электронной коммерции с интеграцией платежей.", "role": "Full Stack Разработчик", "duration": "12 месяцев", "techs": "React, Node.js, PostgreSQL, AWS" },
+    "project2": { "name": "Корпоративная CRM-система", "description": "Индивидуальная CRM-система для крупной корпорации.", "role": "Ведущий Backend", "duration": "18 месяцев", "techs": "Java, Spring Boot, Angular, Oracle" },
+    "project3": { "name": "Приложение Цифрового Банка", "description": "Нативное мобильное приложение для цифрового банкинга.", "role": "Мобильный Разработчик", "duration": "10 месяцев", "techs": "React Native, TypeScript, Firebase" },
+    "project4": { "name": "IoT-Мониторинг Dashboard", "description": "Платформа мониторинга в реальном времени для IoT-устройств.", "role": "Ведущий Frontend", "duration": "8 месяцев", "techs": "Vue.js, Python, MQTT, InfluxDB" },
+    "project5": { "name": "AI-Платформа Контента", "description": "Платформа управления контентом с AI-рекомендациями.", "role": "Tech Lead", "duration": "14 месяцев", "techs": "Next.js, Python, TensorFlow, GCP" },
+    "project6": { "name": "Система Управления Логистикой", "description": "Полная логистическая платформа для управления автопарком.", "role": "Архитектор Решений", "duration": "20 месяцев", "techs": "Микросервисы, Kubernetes, Go, React" }
+  },
+  "skills": {
+    "title": "Навыки",
+    "subtitle": "Технические и личные компетенции",
+    "technicalTitle": "Технические Навыки",
+    "personalTitle": "Личные Навыки",
+    "technical": { "frontend": "Frontend-разработка", "backend": "Backend-разработка", "mobile": "Мобильная разработка", "database": "Базы данных", "cloud": "Cloud & DevOps", "architecture": "Архитектура ПО" },
+    "personalSkills": {
+      "leadership": "Лидерство", "leadershipDesc": "Опыт руководства мультидисциплинарными командами",
+      "communication": "Коммуникация", "communicationDesc": "Чёткая и эффективная коммуникация на всех уровнях",
+      "problemSolving": "Решение Проблем", "problemSolvingDesc": "Аналитический подход к сложным задачам",
+      "teamwork": "Командная Работа", "teamworkDesc": "Отличное сотрудничество и вовлечённость в команде",
+      "adaptability": "Адаптивность", "adaptabilityDesc": "Быстрая адаптация к новым технологиям",
+      "creativity": "Креативность", "creativityDesc": "Инновационное мышление и творческие решения"
+    }
+  },
+  "contact": {
+    "title": "Контакты",
+    "subtitle": "Давайте свяжемся и поработаем вместе",
+    "formTitle": "Напишите мне",
+    "name": "Имя",
+    "email": "Эл. почта",
+    "subject": "Тема",
+    "message": "Сообщение",
+    "send": "Отправить Сообщение",
+    "info": {
+      "emailTitle": "Эл. почта", "emailValue": "roberto@example.com",
+      "phoneTitle": "Телефон", "phoneValue": "+55 (11) 99999-9999",
+      "locationTitle": "Местоположение", "locationValue": "Сан-Паулу, Бразилия",
+      "linkedinTitle": "LinkedIn", "githubTitle": "GitHub"
+    },
+    "successMessage": "Сообщение успешно отправлено!",
+    "namePlaceholder": "Ваше имя",
+    "emailPlaceholder": "ваш@email.com",
+    "subjectPlaceholder": "Тема сообщения",
+    "messagePlaceholder": "Ваше сообщение..."
+  },
+  "curiosities": {
+    "title": "Интересные Факты",
+    "subtitle": "Забавные факты и увлечения",
+    "items": {
+      "item1": { "title": "Любитель Кофе", "description": "Я выпиваю около 5 чашек кофе в день." },
+      "item2": { "title": "Early Adopter", "description": "Обожаю тестировать новые технологии сразу после выхода." },
+      "item3": { "title": "Open Source", "description": "Активно участвую в open source проектах." },
+      "item4": { "title": "Игры", "description": "Увлечённый поклонник стратегических игр." },
+      "item5": { "title": "Путешествия", "description": "Посетил более 10 стран." },
+      "item6": { "title": "Музыка", "description": "Всегда программирую под музыку." },
+      "item7": { "title": "Фитнес", "description": "Здоровое тело — продуктивный разум." },
+      "item8": { "title": "Непрерывное Обучение", "description": "Уделяю минимум 1 час в день изучению нового." }
+    }
+  }
+}

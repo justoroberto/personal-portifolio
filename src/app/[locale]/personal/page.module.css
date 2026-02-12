@@ -1,0 +1,346 @@
+.page {
+  padding-top: var(--space-xl);
+}
+
+/* Bio Card */
+.bioCard {
+  display: flex;
+  gap: var(--space-2xl);
+  padding: var(--space-2xl);
+  border-radius: var(--radius-xl);
+  background: var(--gradient-card);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin-bottom: var(--space-4xl);
+}
+
+.bioAvatar {
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  border-radius: var(--radius-xl);
+  background: var(--gradient-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--color-white);
+}
+
+.bioContent {
+  flex: 1;
+}
+
+.bioText {
+  font-size: 1.1rem;
+  color: var(--color-gray-300);
+  line-height: 1.7;
+  margin-bottom: var(--space-xl);
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-md);
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.infoIcon {
+  color: var(--color-accent);
+  font-size: 1.2rem;
+  min-width: 20px;
+}
+
+.infoItem div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.infoLabel {
+  font-size: 0.75rem;
+  color: var(--color-gray-500);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.infoValue {
+  font-size: 0.95rem;
+  color: var(--color-gray-200);
+  font-weight: 500;
+}
+
+/* Timeline Section */
+.timelineSection {
+  padding-top: var(--space-2xl);
+}
+
+.timeline {
+  margin-top: var(--space-xl);
+  overflow-x: auto;
+  padding: var(--space-xl) 0;
+  scrollbar-width: thin;
+}
+
+.timelineTrack {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  min-width: max-content;
+  padding: 0 var(--space-xl);
+}
+
+.timelineLine {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--color-green-700), var(--color-brown-500), var(--color-green-700), transparent);
+  border-radius: var(--radius-full);
+}
+
+.timelineNode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.nodeButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-md) var(--space-xl);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  min-width: 120px;
+}
+
+.nodeButton:hover {
+  transform: translateY(-4px);
+}
+
+.nodeCircle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--color-black-lighter);
+  border: 3px solid var(--color-green-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-base);
+  box-shadow: var(--shadow-md);
+}
+
+.nodeButton:hover .nodeCircle {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-glow-strong);
+  transform: scale(1.1);
+}
+
+.nodeActive .nodeCircle {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-glow-strong);
+  background: rgba(74, 145, 112, 0.15);
+}
+
+.nodeEmoji {
+  font-size: 1.5rem;
+}
+
+.nodeDate {
+  font-size: 0.8rem;
+  color: var(--color-accent);
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
+.nodeTitle {
+  font-size: 0.8rem;
+  color: var(--color-gray-400);
+  text-align: center;
+  max-width: 100px;
+}
+
+/* Timeline Detail / Carousel */
+.timelineDetail {
+  margin-top: var(--space-2xl);
+  padding: var(--space-2xl);
+  border-radius: var(--radius-xl);
+  background: var(--gradient-card);
+  border: 1px solid rgba(74, 145, 112, 0.15);
+  position: relative;
+}
+
+.detailClose {
+  position: absolute;
+  top: var(--space-md);
+  right: var(--space-md);
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gray-400);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  border: none;
+}
+
+.detailClose:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--color-white);
+}
+
+.carouselContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xl);
+}
+
+.carouselBtn {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gray-300);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+}
+
+.carouselBtn:hover:not(:disabled) {
+  background: var(--color-accent);
+  color: var(--color-white);
+  border-color: var(--color-accent);
+}
+
+.carouselBtn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.carouselContent {
+  flex: 1;
+  display: flex;
+  gap: var(--space-2xl);
+  align-items: center;
+}
+
+.carouselImageArea {
+  width: 180px;
+  height: 180px;
+  min-width: 180px;
+  border-radius: var(--radius-xl);
+  background: rgba(74, 145, 112, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(74, 145, 112, 0.15);
+}
+
+.carouselEmoji {
+  font-size: 4rem;
+}
+
+.carouselInfo {
+  flex: 1;
+}
+
+.carouselDate {
+  font-size: 0.85rem;
+  color: var(--color-accent);
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
+.carouselTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-white);
+  margin: var(--space-sm) 0;
+}
+
+.carouselDescription {
+  font-size: 1rem;
+  color: var(--color-gray-400);
+  line-height: 1.6;
+}
+
+.carouselDots {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-xl);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-gray-700);
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  padding: 0;
+}
+
+.dot:hover {
+  background: var(--color-gray-500);
+}
+
+.dotActive {
+  background: var(--color-accent);
+  width: 24px;
+  border-radius: var(--radius-full);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .bioCard {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .infoGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .carouselContent {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .carouselImageArea {
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+  }
+
+  .carouselEmoji {
+    font-size: 3rem;
+  }
+}

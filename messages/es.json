@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "title": "Roberto Justo | Portafolio de TI",
+    "description": "Portafolio profesional de Roberto Justo - Especialista en TI con amplia experiencia en desarrollo de software y soluciones tecnológicas."
+  },
+  "nav": {
+    "home": "Inicio",
+    "personal": "Sobre Mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto",
+    "curiosities": "Curiosidades"
+  },
+  "header": {
+    "menu": "Menú",
+    "closeMenu": "Cerrar menú",
+    "selectLanguage": "Seleccionar idioma"
+  },
+  "footer": {
+    "madeBy": "Desarrollado por",
+    "allRights": "Todos los derechos reservados.",
+    "language": "Idioma"
+  },
+  "home": {
+    "title": "Inicio",
+    "heroTitle": "Hola, soy",
+    "heroName": "Roberto Justo",
+    "heroSubtitle": "Profesional de TI & Desarrollador de Software",
+    "heroDescription": "Apasionado por la tecnología, la innovación y la creación de soluciones que marcan la diferencia. Con años de experiencia en la industria de TI, transformo desafíos complejos en soluciones elegantes.",
+    "storiesTitle": "Mi Trayectoria",
+    "storiesSubtitle": "Hitos importantes en mi carrera",
+    "summaryTitle": "Resumen Profesional",
+    "summaryText": "Profesional de TI con sólida experiencia en desarrollo de software, arquitectura de sistemas y soluciones tecnológicas. A lo largo de mi carrera, he trabajado en proyectos desafiantes en diversos sectores, siempre buscando la innovación y la excelencia en cada entrega.",
+    "summaryHighlight1": "Años de Experiencia",
+    "summaryHighlight2": "Proyectos Completados",
+    "summaryHighlight3": "Tecnologías Dominadas",
+    "summaryHighlight4": "Clientes Satisfechos",
+    "viewProjects": "Ver Proyectos",
+    "contactMe": "Contáctame",
+    "stories": {
+      "story1": { "title": "Inicio de Carrera", "year": "2015", "description": "Primeros pasos en el mundo de TI" },
+      "story2": { "title": "Primer Gran Proyecto", "year": "2016", "description": "Liderando un equipo de desarrollo" },
+      "story3": { "title": "Especialización", "year": "2017", "description": "Profundización en nuevas tecnologías" },
+      "story4": { "title": "Experiencia Internacional", "year": "2018", "description": "Trabajando con equipos globales" },
+      "story5": { "title": "Tech Lead", "year": "2019", "description": "Liderando arquitectura técnica" },
+      "story6": { "title": "Premio de Innovación", "year": "2020", "description": "Reconocido por solución innovadora" },
+      "story7": { "title": "Nuevos Horizontes", "year": "2022", "description": "Explorando nuevas fronteras" },
+      "story8": { "title": "Actual", "year": "2024", "description": "Continuando a evolucionar e innovar" }
+    }
+  },
+  "personal": {
+    "title": "Sobre Mí",
+    "subtitle": "Conoce mi historia y trayectoria",
+    "bio": "Profesional de TI apasionado por la tecnología y la innovación. A lo largo de mi carrera, he desarrollado habilidades únicas que me permiten enfrentar desafíos complejos con creatividad y eficiencia.",
+    "timelineTitle": "Mi Línea de Tiempo",
+    "timelineSubtitle": "Hitos de mi trayectoria",
+    "info": {
+      "location": "Ubicación",
+      "locationValue": "Brasil",
+      "education": "Educación",
+      "educationValue": "Licenciatura en Ciencias de la Computación",
+      "experience": "Experiencia",
+      "experienceValue": "8+ años en TI",
+      "languages": "Idiomas",
+      "languagesValue": "Portugués, Inglés, Español"
+    },
+    "timeline": {
+      "event1": { "date": "2015", "title": "Universidad", "description": "Inicio de la carrera en Ciencias de la Computación" },
+      "event2": { "date": "2016", "title": "Primera Pasantía", "description": "Ingreso a una empresa de tecnología" },
+      "event3": { "date": "2017", "title": "Desarrollador Junior", "description": "Primera posición a tiempo completo" },
+      "event4": { "date": "2018", "title": "Desarrollador Semi-Senior", "description": "Promoción con más responsabilidades" },
+      "event5": { "date": "2019", "title": "Graduación", "description": "Finalización de la carrera con honores" },
+      "event6": { "date": "2020", "title": "Desarrollador Senior", "description": "Promoción a posición senior" },
+      "event7": { "date": "2022", "title": "Tech Lead", "description": "Inicio del liderazgo de equipos técnicos" },
+      "event8": { "date": "2024", "title": "Posición Actual", "description": "Liderando proyectos innovadores" }
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Principales proyectos en los que contribuí",
+    "viewMore": "Ver Detalles",
+    "technologies": "Tecnologías Utilizadas",
+    "role": "Mi Rol",
+    "duration": "Duración",
+    "project1": { "name": "Plataforma E-Commerce", "description": "Plataforma completa de comercio electrónico con integración de pago y análisis en tiempo real.", "role": "Desarrollador Full Stack", "duration": "12 meses", "techs": "React, Node.js, PostgreSQL, AWS" },
+    "project2": { "name": "Sistema CRM Empresarial", "description": "Sistema CRM personalizado para una gran corporación.", "role": "Líder Backend", "duration": "18 meses", "techs": "Java, Spring Boot, Angular, Oracle" },
+    "project3": { "name": "App de Banca Digital", "description": "Aplicación móvil nativa para banca digital con autenticación biométrica.", "role": "Desarrollador Móvil", "duration": "10 meses", "techs": "React Native, TypeScript, Firebase" },
+    "project4": { "name": "Dashboard de Monitoreo IoT", "description": "Plataforma de monitoreo en tiempo real para dispositivos IoT.", "role": "Líder Frontend", "duration": "8 meses", "techs": "Vue.js, Python, MQTT, InfluxDB" },
+    "project5": { "name": "Plataforma de Contenido con IA", "description": "Plataforma de gestión de contenido con recomendaciones basadas en IA.", "role": "Tech Lead", "duration": "14 meses", "techs": "Next.js, Python, TensorFlow, GCP" },
+    "project6": { "name": "Sistema de Gestión Logística", "description": "Plataforma logística completa para gestión de flotas.", "role": "Arquitecto de Soluciones", "duration": "20 meses", "techs": "Microservicios, Kubernetes, Go, React" }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Competencias técnicas y personales",
+    "technicalTitle": "Habilidades Técnicas",
+    "personalTitle": "Habilidades Personales",
+    "technical": { "frontend": "Desarrollo Frontend", "backend": "Desarrollo Backend", "mobile": "Desarrollo Móvil", "database": "Bases de Datos", "cloud": "Cloud & DevOps", "architecture": "Arquitectura de Software" },
+    "personalSkills": {
+      "leadership": "Liderazgo", "leadershipDesc": "Experiencia liderando equipos multidisciplinarios",
+      "communication": "Comunicación", "communicationDesc": "Comunicación clara y efectiva en todos los niveles",
+      "problemSolving": "Resolución de Problemas", "problemSolvingDesc": "Enfoque analítico para desafíos complejos",
+      "teamwork": "Trabajo en Equipo", "teamworkDesc": "Excelente colaboración y compromiso en equipo",
+      "adaptability": "Adaptabilidad", "adaptabilityDesc": "Rápida adaptación a nuevas tecnologías",
+      "creativity": "Creatividad", "creativityDesc": "Pensamiento innovador y soluciones creativas"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Conectemos y trabajemos juntos",
+    "formTitle": "Envíame un mensaje",
+    "name": "Nombre",
+    "email": "Correo",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "info": {
+      "emailTitle": "Correo", "emailValue": "roberto@example.com",
+      "phoneTitle": "Teléfono", "phoneValue": "+55 (11) 99999-9999",
+      "locationTitle": "Ubicación", "locationValue": "São Paulo, Brasil",
+      "linkedinTitle": "LinkedIn", "githubTitle": "GitHub"
+    },
+    "successMessage": "¡Mensaje enviado con éxito!",
+    "namePlaceholder": "Tu nombre",
+    "emailPlaceholder": "tu@correo.com",
+    "subjectPlaceholder": "Asunto del mensaje",
+    "messagePlaceholder": "Tu mensaje..."
+  },
+  "curiosities": {
+    "title": "Curiosidades",
+    "subtitle": "Datos divertidos e intereses sobre mí",
+    "items": {
+      "item1": { "title": "Amante del Café", "description": "Consumo aproximadamente 5 tazas de café al día." },
+      "item2": { "title": "Early Adopter", "description": "Me encanta probar nuevas tecnologías tan pronto como se lanzan." },
+      "item3": { "title": "Open Source", "description": "Contribuyo activamente a proyectos de código abierto." },
+      "item4": { "title": "Gaming", "description": "Entusiasta de los juegos de estrategia." },
+      "item5": { "title": "Viajes", "description": "He visitado más de 10 países." },
+      "item6": { "title": "Música", "description": "Siempre programo con música." },
+      "item7": { "title": "Fitness", "description": "Creo que un cuerpo sano lleva a una mente productiva." },
+      "item8": { "title": "Aprendizaje Continuo", "description": "Dedico al menos 1 hora al día para aprender algo nuevo." }
+    }
+  }
+}

@@ -1,0 +1,176 @@
+.page {
+  padding-top: var(--space-xl);
+}
+
+.categoryTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: var(--space-xl);
+  padding-left: var(--space-md);
+  border-left: 3px solid var(--color-accent);
+}
+
+/* Technical Skills Grid */
+.technicalGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-xl);
+}
+
+.skillCard {
+  padding: var(--space-xl);
+  border-radius: var(--radius-lg);
+  background: var(--gradient-card);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  transition: all var(--transition-base);
+}
+
+.skillCard:hover {
+  border-color: rgba(74, 145, 112, 0.2);
+  box-shadow: var(--shadow-glow);
+}
+
+.skillHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.skillIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background: rgba(74, 145, 112, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-accent);
+  font-size: 1.2rem;
+}
+
+.skillName {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+/* Progress Bar */
+.progressBar {
+  position: relative;
+  height: 8px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.05);
+  overflow: visible;
+}
+
+.progressFill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  background: var(--gradient-primary);
+  position: relative;
+  box-shadow: 0 0 8px rgba(74, 145, 112, 0.3);
+}
+
+.progressLabel {
+  position: absolute;
+  right: 0;
+  top: -24px;
+  font-size: 0.8rem;
+  color: var(--color-accent);
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
+/* Tech List */
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.techPill {
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 0.75rem;
+  color: var(--color-gray-300);
+  font-family: var(--font-mono);
+  transition: all var(--transition-fast);
+}
+
+.techPill:hover {
+  background: rgba(74, 145, 112, 0.1);
+  border-color: rgba(74, 145, 112, 0.2);
+  color: var(--color-accent);
+}
+
+/* Personal Skills Grid */
+.personalGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-xl);
+}
+
+.personalCard {
+  padding: var(--space-2xl);
+  border-radius: var(--radius-lg);
+  background: var(--gradient-card);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+  transition: all var(--transition-base);
+  cursor: default;
+}
+
+.personalCard:hover {
+  border-color: rgba(141, 110, 99, 0.3);
+  box-shadow: 0 0 20px rgba(141, 110, 99, 0.1);
+}
+
+.personalIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-full);
+  background: var(--gradient-brown);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  font-size: 1.3rem;
+}
+
+.personalName {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.personalDesc {
+  font-size: 0.85rem;
+  color: var(--color-gray-500);
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .technicalGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .personalGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .personalGrid {
+    grid-template-columns: 1fr;
+  }
+}

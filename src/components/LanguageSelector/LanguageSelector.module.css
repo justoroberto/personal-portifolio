@@ -1,0 +1,128 @@
+.selector {
+  position: relative;
+  z-index: 100;
+}
+
+.trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--color-gray-200);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  white-space: nowrap;
+}
+
+.trigger:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(74, 145, 112, 0.3);
+}
+
+.flag {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.label {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.chevron {
+  transition: transform var(--transition-fast);
+  opacity: 0.6;
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: var(--color-black-lighter);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-md);
+  padding: 0.5rem;
+  min-width: 180px;
+  box-shadow: var(--shadow-xl);
+  animation: dropdownIn 200ms ease-out;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+@keyframes dropdownIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: var(--color-gray-300);
+}
+
+.option:hover {
+  background: rgba(74, 145, 112, 0.1);
+  color: var(--color-white);
+}
+
+.active {
+  background: rgba(74, 145, 112, 0.15);
+  color: var(--color-accent);
+}
+
+.optionFlag {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.optionLabel {
+  font-size: 0.9rem;
+  font-weight: 500;
+  flex: 1;
+  text-align: left;
+}
+
+.check {
+  color: var(--color-accent);
+}
+
+/* Footer variant */
+.footer .trigger {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.footer .dropdown {
+  bottom: calc(100% + 8px);
+  top: auto;
+}
+
+@media (max-width: 768px) {
+  .label {
+    display: none;
+  }
+
+  .trigger {
+    padding: 0.5rem;
+  }
+}
