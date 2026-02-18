@@ -27,15 +27,15 @@
   gap: var(--space-lg);
   padding: var(--space-lg);
   border-radius: var(--radius-lg);
-  background: var(--gradient-card);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
   transition: all var(--transition-base);
   text-decoration: none;
   cursor: pointer;
 }
 
 .infoCard:hover {
-  border-color: rgba(74, 145, 112, 0.2);
+  border-color: var(--color-accent-border);
   box-shadow: var(--shadow-glow);
   color: inherit;
 }
@@ -45,7 +45,7 @@
   height: 48px;
   min-width: 48px;
   border-radius: var(--radius-md);
-  background: rgba(74, 145, 112, 0.1);
+  background: var(--color-accent-subtle);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,7 +61,7 @@
 
 .infoTitle {
   font-size: 0.75rem;
-  color: var(--color-gray-500);
+  color: var(--text-faint);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-weight: 600;
@@ -69,7 +69,7 @@
 
 .infoValue {
   font-size: 0.95rem;
-  color: var(--color-gray-200);
+  color: var(--text-secondary);
   font-weight: 500;
 }
 
@@ -77,14 +77,14 @@
 .formSection {
   padding: var(--space-2xl);
   border-radius: var(--radius-xl);
-  background: var(--gradient-card);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
 }
 
 .formTitle {
   font-size: 1.3rem;
   font-weight: 700;
-  color: var(--color-white);
+  color: var(--text-primary);
   margin-bottom: var(--space-xl);
 }
 
@@ -108,7 +108,7 @@
 
 .label {
   font-size: 0.85rem;
-  color: var(--color-gray-400);
+  color: var(--text-muted);
   font-weight: 500;
 }
 
@@ -116,9 +116,9 @@
 .textarea {
   padding: 0.85rem 1rem;
   border-radius: var(--radius-md);
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  color: var(--color-white);
+  background: var(--bg-input);
+  border: 1px solid var(--border-light);
+  color: var(--text-primary);
   font-family: var(--font-primary);
   font-size: 0.95rem;
   transition: all var(--transition-fast);
@@ -128,13 +128,13 @@
 .input:focus,
 .textarea:focus {
   border-color: var(--color-accent);
-  box-shadow: 0 0 0 3px rgba(74, 145, 112, 0.1);
-  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 0 3px var(--color-accent-glow);
+  background: var(--bg-input-focus);
 }
 
 .input::placeholder,
 .textarea::placeholder {
-  color: var(--color-gray-600);
+  color: var(--text-faint);
 }
 
 .textarea {
@@ -154,8 +154,8 @@
   gap: var(--space-md);
   padding: var(--space-xl);
   border-radius: var(--radius-lg);
-  background: rgba(74, 145, 112, 0.1);
-  border: 1px solid rgba(74, 145, 112, 0.2);
+  background: var(--color-accent-subtle);
+  border: 1px solid var(--color-accent-border);
   color: var(--color-accent);
   font-weight: 600;
   font-size: 1rem;

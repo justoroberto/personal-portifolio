@@ -5,11 +5,11 @@
 
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   align-items: center;
   overflow: hidden;
-  padding: var(--space-4xl) 0;
+  padding: var(--space-4xl) 0 var(--space-2xl);
 }
 
 .heroBackground {
@@ -23,7 +23,7 @@
   width: 600px;
   height: 600px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(74, 145, 112, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle, var(--hero-orb-green) 0%, transparent 70%);
   top: -200px;
   right: -100px;
   animation: float 8s ease-in-out infinite;
@@ -34,7 +34,7 @@
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(62, 39, 35, 0.15) 0%, transparent 70%);
+  background: radial-gradient(circle, var(--hero-orb-silver) 0%, transparent 70%);
   bottom: -100px;
   left: -100px;
   animation: float 10s ease-in-out infinite reverse;
@@ -45,7 +45,7 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(74, 145, 112, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, var(--hero-orb-green-light) 0%, transparent 70%);
   top: 40%;
   left: 30%;
   animation: float 12s ease-in-out infinite;
@@ -55,8 +55,8 @@
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    linear-gradient(var(--grid-lines) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-lines) 1px, transparent 1px);
   background-size: 60px 60px;
   mask-image: radial-gradient(ellipse at center, black 30%, transparent 70%);
   -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 70%);
@@ -70,7 +70,7 @@
   padding: 0 var(--space-xl);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--space-4xl);
+  gap: var(--space-3xl);
   align-items: center;
   width: 100%;
 }
@@ -78,7 +78,7 @@
 .heroText {
   display: flex;
   flex-direction: column;
-  gap: var(--space-md);
+  gap: var(--space-sm);
 }
 
 .heroGreeting {
@@ -93,7 +93,7 @@
   font-size: clamp(2.5rem, 6vw, 4.5rem);
   font-weight: 900;
   line-height: 1.1;
-  background: linear-gradient(135deg, var(--color-white) 0%, var(--color-gray-300) 50%, var(--color-accent) 100%);
+  background: var(--gradient-text);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -103,38 +103,42 @@
 
 .heroSubtitle {
   font-size: 1.25rem;
-  color: var(--color-gray-300);
+  color: var(--text-tertiary);
   font-weight: 500;
   margin-top: var(--space-xs);
 }
 
 .heroDescription {
   font-size: 1rem;
-  color: var(--color-gray-500);
+  color: var(--text-faint);
   line-height: 1.7;
   max-width: 480px;
-  margin-top: var(--space-sm);
+  margin-top: var(--space-xs);
 }
 
 .heroCta {
   display: flex;
   gap: var(--space-md);
-  margin-top: var(--space-xl);
+  margin-top: var(--space-lg);
   flex-wrap: wrap;
 }
 
 /* Hero Visual */
 .heroVisual {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: var(--space-md);
 }
 
 .avatarContainer {
   position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 260px;
+  height: 260px;
 }
 
 .avatarRing {
@@ -142,8 +146,11 @@
   width: 260px;
   height: 260px;
   border-radius: 50%;
-  border: 2px solid rgba(74, 145, 112, 0.2);
+  border: 2px solid var(--color-accent-border);
   animation: glow 4s ease infinite;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .avatar {
@@ -157,36 +164,26 @@
   box-shadow: var(--shadow-xl), var(--shadow-glow-strong);
   position: relative;
   overflow: hidden;
+  padding: 4px;
 }
 
-.avatar::before {
-  content: '';
-  position: absolute;
-  inset: 4px;
+.avatarImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 50%;
-  background: var(--color-black-light);
-}
-
-.avatarText {
   position: relative;
   z-index: 1;
-  font-size: 4rem;
-  font-weight: 900;
-  background: var(--gradient-primary);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .statusBadge {
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  margin-top: var(--space-lg);
   padding: 0.5rem 1rem;
-  border-radius: var(--radius-full);
-  background: rgba(74, 145, 112, 0.1);
-  border: 1px solid rgba(74, 145, 112, 0.2);
+  border-radius: var(--radius-md);
+  background: var(--color-accent-subtle);
+  border: 1px solid var(--color-accent-border);
   font-size: 0.85rem;
   color: var(--color-accent);
   font-weight: 500;
@@ -202,7 +199,7 @@
 
 /* === Stories Section === */
 .storiesSection {
-  padding: var(--space-4xl) 0;
+  padding: var(--space-xl) 0;
   position: relative;
 }
 
@@ -229,7 +226,7 @@
 }
 
 .storyCard:hover {
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--bg-hover);
   transform: translateY(-4px);
 }
 
@@ -243,12 +240,12 @@
 }
 
 .storyCard:hover .storyRing {
-  box-shadow: 0 0 20px rgba(74, 145, 112, 0.3);
+  box-shadow: 0 0 20px var(--color-accent-glow);
   transform: scale(1.05);
 }
 
 .storyActive .storyRing {
-  box-shadow: 0 0 30px rgba(74, 145, 112, 0.4);
+  box-shadow: 0 0 30px var(--color-accent-glow);
   transform: scale(1.08);
 }
 
@@ -256,11 +253,11 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: var(--color-black-lighter);
+  background: var(--bg-tertiary);
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3px solid var(--color-black);
+  border: 3px solid var(--bg-primary);
 }
 
 .storyEmoji {
@@ -276,7 +273,7 @@
 
 .storyTitle {
   font-size: 0.8rem;
-  color: var(--color-gray-300);
+  color: var(--text-tertiary);
   text-align: center;
   line-height: 1.3;
 }
@@ -288,23 +285,23 @@
 
 .storyDescription {
   font-size: 0.75rem;
-  color: var(--color-gray-500);
+  color: var(--text-faint);
   text-align: center;
   line-height: 1.5;
 }
 
 /* === Summary Section === */
 .summarySection {
-  padding: var(--space-4xl) 0;
-  background: linear-gradient(180deg, transparent, rgba(27, 58, 45, 0.05), transparent);
+  padding: var(--space-xl) 0 var(--space-2xl);
+  background: linear-gradient(180deg, transparent, var(--color-accent-subtle), transparent);
 }
 
 .summaryText {
   font-size: 1.15rem;
-  color: var(--color-gray-300);
+  color: var(--text-tertiary);
   line-height: 1.8;
   max-width: 800px;
-  margin-bottom: var(--space-3xl);
+  margin-bottom: var(--space-2xl);
 }
 
 .highlightsGrid {
@@ -318,15 +315,15 @@
   flex-direction: column;
   align-items: center;
   gap: var(--space-sm);
-  padding: var(--space-2xl) var(--space-lg);
+  padding: var(--space-xl) var(--space-lg);
   border-radius: var(--radius-lg);
-  background: var(--gradient-card);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
   transition: all var(--transition-base);
 }
 
 .highlightCard:hover {
-  border-color: rgba(74, 145, 112, 0.2);
+  border-color: var(--color-accent-border);
   box-shadow: var(--shadow-glow);
 }
 
@@ -334,7 +331,7 @@
   width: 50px;
   height: 50px;
   border-radius: var(--radius-md);
-  background: rgba(74, 145, 112, 0.1);
+  background: var(--color-accent-subtle);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -345,13 +342,13 @@
 .highlightValue {
   font-size: 2.5rem;
   font-weight: 900;
-  color: var(--color-white);
+  color: var(--text-primary);
   font-family: var(--font-mono);
 }
 
 .highlightLabel {
   font-size: 0.85rem;
-  color: var(--color-gray-400);
+  color: var(--text-muted);
   text-align: center;
 }
 
@@ -359,7 +356,7 @@
 @media (max-width: 900px) {
   .heroContent {
     grid-template-columns: 1fr;
-    gap: var(--space-2xl);
+    gap: var(--space-xl);
     text-align: center;
   }
 
@@ -387,10 +384,6 @@
   .avatarRing {
     width: 200px;
     height: 200px;
-  }
-
-  .avatarText {
-    font-size: 3rem;
   }
 
   .highlightsGrid {

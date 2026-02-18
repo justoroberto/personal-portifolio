@@ -8,18 +8,18 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 0.75rem;
-  border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  color: var(--color-gray-200);
+  border-radius: var(--radius-md);
+  background: var(--bg-hover);
+  border: 1px solid var(--border-light);
+  color: var(--text-secondary);
   cursor: pointer;
   transition: all var(--transition-base);
   white-space: nowrap;
 }
 
 .trigger:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(74, 145, 112, 0.3);
+  background: var(--bg-toggle);
+  border-color: var(--color-accent-border);
 }
 
 .flag {
@@ -45,8 +45,8 @@
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
-  background: var(--color-black-lighter);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-light);
   border-radius: var(--radius-md);
   padding: 0.5rem;
   min-width: 180px;
@@ -78,16 +78,16 @@
   cursor: pointer;
   background: transparent;
   border: none;
-  color: var(--color-gray-300);
+  color: var(--text-tertiary);
 }
 
 .option:hover {
-  background: rgba(74, 145, 112, 0.1);
-  color: var(--color-white);
+  background: var(--color-accent-subtle);
+  color: var(--text-primary);
 }
 
 .active {
-  background: rgba(74, 145, 112, 0.15);
+  background: var(--color-accent-subtle-hover);
   color: var(--color-accent);
 }
 
@@ -109,7 +109,7 @@
 
 /* Footer variant */
 .footer .trigger {
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--bg-hover);
 }
 
 .footer .dropdown {

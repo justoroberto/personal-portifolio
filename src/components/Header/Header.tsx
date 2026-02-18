@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import { useState, useEffect } from 'react';
 import LanguageSelector from '../LanguageSelector/LanguageSelector';
+import ThemeToggle from '../ThemeToggle/ThemeToggle';
 import styles from './Header.module.css';
 
 const navItems = [
@@ -67,6 +68,7 @@ export default function Header() {
           </nav>
 
           <div className={styles.actions}>
+            <ThemeToggle />
             <LanguageSelector variant="header" />
 
             <button

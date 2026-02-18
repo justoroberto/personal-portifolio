@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import FirebaseAnalytics from '@/components/FirebaseAnalytics/FirebaseAnalytics';
+import { ThemeProvider } from '@/context/ThemeContext';
 import type { Metadata } from 'next';
 
 type Props = {
@@ -44,16 +45,18 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = (await import(`../../../messages/${locale}.json`)).default;
 
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={locale} data-theme="dark" suppressHydrationWarning>
       <body>
         <FirebaseAnalytics />
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header />
-          <main className="page-content">
-            {children}
-          </main>
-          <Footer />
-        </NextIntlClientProvider>
+        <ThemeProvider>
+          <NextIntlClientProvider locale={locale} messages={messages}>
+            <Header />
+            <main className="page-content">
+              {children}
+            </main>
+            <Footer />
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

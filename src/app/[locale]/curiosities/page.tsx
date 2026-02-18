@@ -6,14 +6,14 @@ import styles from './page.module.css';
 
 const curiosityEmojis = ['☕', '🔬', '💻', '🎮', '✈️', '🎵', '💪', '📚'];
 const curiosityColors = [
-  'linear-gradient(135deg, #5d4037, #8d6e63)',
+  'linear-gradient(135deg, #2c3e50, #7f8c8d)',
   'linear-gradient(135deg, #1b3a2d, #4a9170)',
   'linear-gradient(135deg, #2e6b4f, #66a886)',
-  'linear-gradient(135deg, #3e2723, #6d4c41)',
+  'linear-gradient(135deg, #374151, #9ca3af)',
   'linear-gradient(135deg, #1e4d3a, #3a7d5e)',
-  'linear-gradient(135deg, #4e342e, #a1887f)',
+  'linear-gradient(135deg, #4a5568, #a0aec0)',
   'linear-gradient(135deg, #1b3a2d, #81be9d)',
-  'linear-gradient(135deg, #6d4c41, #bcaaa4)',
+  'linear-gradient(135deg, #1f2937, #6b7280)',
 ];
 
 export default function CuriositiesPage() {

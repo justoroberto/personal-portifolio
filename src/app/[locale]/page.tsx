@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { FaRocket, FaBriefcase, FaCode, FaUsers, FaArrowRight } from 'react-icons/fa';
@@ -9,13 +10,13 @@ import styles from './page.module.css';
 
 const storyGradients = [
   'linear-gradient(135deg, #1b3a2d, #4a9170)',
-  'linear-gradient(135deg, #3e2723, #8d6e63)',
+  'linear-gradient(135deg, #2c3e50, #7f8c8d)',
   'linear-gradient(135deg, #2e6b4f, #81be9d)',
-  'linear-gradient(135deg, #5d4037, #a1887f)',
+  'linear-gradient(135deg, #4a5568, #a0aec0)',
   'linear-gradient(135deg, #1e4d3a, #66a886)',
-  'linear-gradient(135deg, #4e342e, #bcaaa4)',
+  'linear-gradient(135deg, #374151, #9ca3af)',
   'linear-gradient(135deg, #3a7d5e, #a8d5be)',
-  'linear-gradient(135deg, #6d4c41, #d7ccc8)',
+  'linear-gradient(135deg, #1f2937, #6b7280)',
 ];
 
 const storyEmojis = ['🚀', '💼', '🎯', '🌍', '👨‍💻', '🏆', '🌟', '⚡'];
@@ -88,12 +89,19 @@ export default function HomePage() {
             <div className={styles.avatarContainer}>
               <div className={styles.avatarRing} />
               <div className={styles.avatar}>
-                <span className={styles.avatarText}>RJ</span>
+                <Image
+                  src="/images/profile.jpg"
+                  alt="Roberto Justo"
+                  width={200}
+                  height={200}
+                  className={styles.avatarImage}
+                  priority
+                />
               </div>
-              <div className={styles.statusBadge}>
-                <span className={styles.statusDot} />
-                Available
-              </div>
+            </div>
+            <div className={styles.statusBadge}>
+              <span className={styles.statusDot} />
+              Available
             </div>
           </motion.div>
         </div>
