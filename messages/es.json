@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Roberto Justo | Portafolio de TI",
-    "description": "Portafolio profesional de Roberto Justo - Especialista en TI con amplia experiencia en desarrollo de software y soluciones tecnológicas."
+    "description": "Portafolio profesional de Roberto Justo - Líder Técnico de Front-End especializado en Salesforce, con experiencia en proyectos nacionales e internacionales de e-commerce B2B."
   },
   "nav": {
     "home": "Inicio",
@@ -25,54 +25,54 @@
     "title": "Inicio",
     "heroTitle": "Hola, soy",
     "heroName": "Roberto Justo",
-    "heroSubtitle": "Profesional de TI & Desarrollador de Software",
-    "heroDescription": "Apasionado por la tecnología, la innovación y la creación de soluciones que marcan la diferencia. Con años de experiencia en la industria de TI, transformo desafíos complejos en soluciones elegantes.",
+    "heroSubtitle": "Líder Técnico de Front-End & Desarrollador Salesforce",
+    "heroDescription": "Con años de experiencia en desarrollo web, me especializo en la creación y arquitectura de aplicaciones Salesforce, enfocado en e-commerces B2B para clientes nacionales e internacionales. Lidero equipos de front-end, colaborando con diferentes equipos para garantizar soluciones eficientes y escalables.",
     "storiesTitle": "Mi Trayectoria",
     "storiesSubtitle": "Hitos importantes en mi carrera",
     "summaryTitle": "Resumen Profesional",
-    "summaryText": "Profesional de TI con sólida experiencia en desarrollo de software, arquitectura de sistemas y soluciones tecnológicas. A lo largo de mi carrera, he trabajado en proyectos desafiantes en diversos sectores, siempre buscando la innovación y la excelencia en cada entrega.",
+    "summaryText": "Líder Técnico de Front-End con sólida experiencia en desarrollo web y arquitectura de aplicaciones Salesforce. Mi actuación va más allá del código: participo en reuniones estratégicas, utilizo metodologías ágiles y contribuyo a decisiones técnicas. Me reúno directamente con clientes y equipos de DevOps, garantizando que las soluciones estén alineadas con las necesidades del negocio. Actualmente también construyo features y proyectos con inteligencia artificial, utilizando agentes de IA.",
     "summaryHighlight1": "Años de Experiencia",
-    "summaryHighlight2": "Proyectos Completados",
-    "summaryHighlight3": "Tecnologías Dominadas",
-    "summaryHighlight4": "Clientes Satisfechos",
+    "summaryHighlight2": "Proyectos Entregados",
+    "summaryHighlight3": "Mercados Globales",
+    "summaryHighlight4": "Páginas Desarrolladas",
     "viewProjects": "Ver Proyectos",
     "contactMe": "Contáctame",
     "stories": {
-      "story1": { "title": "Inicio de Carrera", "year": "2015", "description": "Primeros pasos en el mundo de TI" },
-      "story2": { "title": "Primer Gran Proyecto", "year": "2016", "description": "Liderando un equipo de desarrollo" },
-      "story3": { "title": "Especialización", "year": "2017", "description": "Profundización en nuevas tecnologías" },
-      "story4": { "title": "Experiencia Internacional", "year": "2018", "description": "Trabajando con equipos globales" },
-      "story5": { "title": "Tech Lead", "year": "2019", "description": "Liderando arquitectura técnica" },
-      "story6": { "title": "Premio de Innovación", "year": "2020", "description": "Reconocido por solución innovadora" },
-      "story7": { "title": "Nuevos Horizontes", "year": "2022", "description": "Explorando nuevas fronteras" },
-      "story8": { "title": "Actual", "year": "2024", "description": "Continuando a evolucionar e innovar" }
+      "story1": { "title": "Universidad", "year": "2010", "description": "Ingreso a Sistemas de Información en la UFRRJ, tras excelente nota en el examen nacional" },
+      "story2": { "title": "Primeras Pasantías", "year": "2011", "description": "Pasantías en TI en la UFRRJ, mantenimiento de redes y creación de portales web" },
+      "story3": { "title": "Experiencia Corporativa", "year": "2013", "description": "Pasantías en Hildebrando Brasil y Globo.com, infraestructura y sistemas operativos" },
+      "story4": { "title": "Entrada a Salesforce", "year": "2018", "description": "Inicio en iPremios como Salesforce Developer, estilizando portales B2B" },
+      "story5": { "title": "Proyectos Globales", "year": "2020", "description": "Participación en proyectos internacionales como OmniRep y Commerce Lite" },
+      "story6": { "title": "Tech Lead Front-End", "year": "2022", "description": "Promoción a Líder Técnico de Front-End, liderando equipo en All in One" },
+      "story7": { "title": "Expansión Global", "year": "2024", "description": "Liderazgo de front-end en 5 mercados: Brasil, Chile, Rumania, Sudáfrica y Polonia" },
+      "story8": { "title": "IA e Innovación", "year": "2026", "description": "Construcción de features y proyectos con inteligencia artificial y agentes de IA" }
     }
   },
   "personal": {
     "title": "Sobre Mí",
     "subtitle": "Conoce mi historia y trayectoria",
-    "bio": "Profesional de TI apasionado por la tecnología y la innovación. A lo largo de mi carrera, he desarrollado habilidades únicas que me permiten enfrentar desafíos complejos con creatividad y eficiencia.",
+    "bio": "Con años de experiencia en desarrollo web, me especializo en la creación y arquitectura de aplicaciones Salesforce, enfocado en e-commerce para clientes nacionales e internacionales. Soy comprometido con buenas prácticas, calidad, performance e innovación. Me considero una persona educada, sociable y determinada.",
     "timelineTitle": "Mi Línea de Tiempo",
     "timelineSubtitle": "Hitos de mi trayectoria",
     "info": {
       "location": "Ubicación",
-      "locationValue": "Brasil",
+      "locationValue": "Río de Janeiro, Brasil",
       "education": "Educación",
-      "educationValue": "Licenciatura en Ciencias de la Computación",
+      "educationValue": "Sistemas de Información - UFRRJ",
       "experience": "Experiencia",
-      "experienceValue": "8+ años en TI",
+      "experienceValue": "15+ años en TI",
       "languages": "Idiomas",
       "languagesValue": "Portugués, Inglés, Español"
     },
     "timeline": {
-      "event1": { "date": "2015", "title": "Universidad", "description": "Inicio de la carrera en Ciencias de la Computación" },
-      "event2": { "date": "2016", "title": "Primera Pasantía", "description": "Ingreso a una empresa de tecnología" },
-      "event3": { "date": "2017", "title": "Desarrollador Junior", "description": "Primera posición a tiempo completo" },
-      "event4": { "date": "2018", "title": "Desarrollador Semi-Senior", "description": "Promoción con más responsabilidades" },
-      "event5": { "date": "2019", "title": "Graduación", "description": "Finalización de la carrera con honores" },
-      "event6": { "date": "2020", "title": "Desarrollador Senior", "description": "Promoción a posición senior" },
-      "event7": { "date": "2022", "title": "Tech Lead", "description": "Inicio del liderazgo de equipos técnicos" },
-      "event8": { "date": "2024", "title": "Posición Actual", "description": "Liderando proyectos innovadores" }
+      "event1": { "date": "2010", "title": "Universidad", "description": "Ingreso a Sistemas de Información en la UFRRJ" },
+      "event2": { "date": "2011", "title": "Pasantía - DTA UFRRJ", "description": "Mantenimiento de red, portal web y soporte de hardware/software" },
+      "event3": { "date": "2012", "title": "Pasantía - COINFO UFRRJ", "description": "Mantenimiento de red de computadoras, soporte nivel 2 y 3" },
+      "event4": { "date": "2013", "title": "Hildebrando & Globo.com", "description": "Pasantías en infraestructura y soporte a sistemas operativos" },
+      "event5": { "date": "2014", "title": "Instructor - CODEP UFRRJ", "description": "Impartí curso de Planilla Electrónica para funcionarios de la UFRRJ" },
+      "event6": { "date": "2017", "title": "Trainee - HS Informática", "description": "Soporte al producto y desarrollo de aplicaciones web en PHP con MVC" },
+      "event7": { "date": "2018", "title": "Salesforce Developer - iPremios", "description": "Inicio como Salesforce Developer en portales B2B para grandes clientes" },
+      "event8": { "date": "2022", "title": "Tech Lead Front-End", "description": "Promoción a Líder Técnico de Front-End en el proyecto All in One" }
     }
   },
   "projects": {
@@ -82,26 +82,75 @@
     "technologies": "Tecnologías Utilizadas",
     "role": "Mi Rol",
     "duration": "Duración",
-    "project1": { "name": "Plataforma E-Commerce", "description": "Plataforma completa de comercio electrónico con integración de pago y análisis en tiempo real.", "role": "Desarrollador Full Stack", "duration": "12 meses", "techs": "React, Node.js, PostgreSQL, AWS" },
-    "project2": { "name": "Sistema CRM Empresarial", "description": "Sistema CRM personalizado para una gran corporación.", "role": "Líder Backend", "duration": "18 meses", "techs": "Java, Spring Boot, Angular, Oracle" },
-    "project3": { "name": "App de Banca Digital", "description": "Aplicación móvil nativa para banca digital con autenticación biométrica.", "role": "Desarrollador Móvil", "duration": "10 meses", "techs": "React Native, TypeScript, Firebase" },
-    "project4": { "name": "Dashboard de Monitoreo IoT", "description": "Plataforma de monitoreo en tiempo real para dispositivos IoT.", "role": "Líder Frontend", "duration": "8 meses", "techs": "Vue.js, Python, MQTT, InfluxDB" },
-    "project5": { "name": "Plataforma de Contenido con IA", "description": "Plataforma de gestión de contenido con recomendaciones basadas en IA.", "role": "Tech Lead", "duration": "14 meses", "techs": "Next.js, Python, TensorFlow, GCP" },
-    "project6": { "name": "Sistema de Gestión Logística", "description": "Plataforma logística completa para gestión de flotas.", "role": "Arquitecto de Soluciones", "duration": "20 meses", "techs": "Microservicios, Kubernetes, Go, React" }
+    "project1": {
+      "name": "All in One (AIO)",
+      "description": "Portal robusto dentro de Salesforce con más de 90 páginas, expandiendo Commerce Lite con áreas completas de B2B. Presente en Brasil, Chile, Rumania, Sudáfrica y Polonia.",
+      "role": "Líder Técnico de Front-End",
+      "duration": "4+ años (en curso)",
+      "techs": "Salesforce LWC, Apex, JavaScript, CSS, SOQL"
+    },
+    "project2": {
+      "name": "Commerce Lite",
+      "description": "Portal Lite de Salesforce que permitía al minorista de BAT comprar productos, acceder a promociones y seguir pedidos.",
+      "role": "Desarrollador Front-End Senior",
+      "duration": "2 años",
+      "techs": "Salesforce LWC, Apex, JavaScript, CSS"
+    },
+    "project3": {
+      "name": "OmniRep",
+      "description": "Portal Salesforce para representantes de ventas de BAT, con gráficos de ventas y compras organizados por jerarquía.",
+      "role": "Desarrollador Front-End",
+      "duration": "1 año",
+      "techs": "Salesforce LWC, Apex, JavaScript, CSS, Chart.js"
+    },
+    "project4": {
+      "name": "Commerce IQ Dashboards",
+      "description": "Dashboards de inteligencia comercial para Chile, con métricas procesadas por IA que retornan recomendaciones de productos.",
+      "role": "Desarrollador Front-End",
+      "duration": "8 meses",
+      "techs": "React, TypeScript, REST API, Chart.js"
+    },
+    "project5": {
+      "name": "Feature de Promociones",
+      "description": "Sistema complejo de registro de combinaciones de promociones en portal administrativo, integrado al portal AIO.",
+      "role": "Líder Técnico de Front-End",
+      "duration": "6 meses",
+      "techs": "Salesforce LWC, Apex, SOQL, JavaScript"
+    },
+    "project6": {
+      "name": "Portales B2B Iniciales",
+      "description": "Estilización y desarrollo de portales B2B para clientes como Clube de Prêmios, Essilor, Conecta Você y Conecta Negócios.",
+      "role": "Desarrollador Front-End",
+      "duration": "1 año",
+      "techs": "HTML, CSS, JavaScript, Salesforce"
+    }
   },
   "skills": {
     "title": "Habilidades",
     "subtitle": "Competencias técnicas y personales",
     "technicalTitle": "Habilidades Técnicas",
     "personalTitle": "Habilidades Personales",
-    "technical": { "frontend": "Desarrollo Frontend", "backend": "Desarrollo Backend", "mobile": "Desarrollo Móvil", "database": "Bases de Datos", "cloud": "Cloud & DevOps", "architecture": "Arquitectura de Software" },
+    "technical": {
+      "frontend": "Desarrollo Front-End",
+      "backend": "Salesforce & Backend",
+      "mobile": "Frameworks y Herramientas",
+      "database": "Bases de Datos & Consultas",
+      "cloud": "DevOps & Metodologías",
+      "architecture": "Arquitectura & Escalabilidad"
+    },
     "personalSkills": {
-      "leadership": "Liderazgo", "leadershipDesc": "Experiencia liderando equipos multidisciplinarios",
-      "communication": "Comunicación", "communicationDesc": "Comunicación clara y efectiva en todos los niveles",
-      "problemSolving": "Resolución de Problemas", "problemSolvingDesc": "Enfoque analítico para desafíos complejos",
-      "teamwork": "Trabajo en Equipo", "teamworkDesc": "Excelente colaboración y compromiso en equipo",
-      "adaptability": "Adaptabilidad", "adaptabilityDesc": "Rápida adaptación a nuevas tecnologías",
-      "creativity": "Creatividad", "creativityDesc": "Pensamiento innovador y soluciones creativas"
+      "leadership": "Liderazgo Técnico",
+      "leadershipDesc": "Liderazgo de equipos de front-end en proyectos globales",
+      "communication": "Comunicación",
+      "communicationDesc": "Reuniones directas con clientes y equipos de DevOps",
+      "problemSolving": "Resolución de Problemas",
+      "problemSolvingDesc": "Enfoque analítico para desafíos complejos en Salesforce",
+      "teamwork": "Trabajo en Equipo",
+      "teamworkDesc": "Colaboración con diferentes equipos y metodologías ágiles",
+      "adaptability": "Adaptabilidad",
+      "adaptabilityDesc": "Actuación en diversos mercados internacionales",
+      "creativity": "Innovación con IA",
+      "creativityDesc": "Construcción de features y proyectos con inteligencia artificial"
     }
   },
   "contact": {
@@ -114,10 +163,14 @@
     "message": "Mensaje",
     "send": "Enviar Mensaje",
     "info": {
-      "emailTitle": "Correo", "emailValue": "roberto@example.com",
-      "phoneTitle": "Teléfono", "phoneValue": "+55 (11) 99999-9999",
-      "locationTitle": "Ubicación", "locationValue": "São Paulo, Brasil",
-      "linkedinTitle": "LinkedIn", "githubTitle": "GitHub"
+      "emailTitle": "Correo",
+      "emailValue": "roberto@example.com",
+      "phoneTitle": "Teléfono",
+      "phoneValue": "+55 (11) 99999-9999",
+      "locationTitle": "Ubicación",
+      "locationValue": "Río de Janeiro, Brasil",
+      "linkedinTitle": "LinkedIn",
+      "githubTitle": "GitHub"
     },
     "successMessage": "¡Mensaje enviado con éxito!",
     "namePlaceholder": "Tu nombre",

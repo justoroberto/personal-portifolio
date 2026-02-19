@@ -19,13 +19,13 @@ const storyGradients = [
   'linear-gradient(135deg, #1f2937, #6b7280)',
 ];
 
-const storyEmojis = ['🚀', '💼', '🎯', '🌍', '👨‍💻', '🏆', '🌟', '⚡'];
+const storyEmojis = ['🎓', '💻', '🏢', '☁️', '🌍', '👨‍💻', '🚀', '🤖'];
 
 const highlights = [
-  { icon: FaBriefcase, value: '8+' },
-  { icon: FaRocket, value: '30+' },
-  { icon: FaCode, value: '20+' },
-  { icon: FaUsers, value: '50+' },
+  { icon: FaBriefcase, value: '15+' },
+  { icon: FaRocket, value: '15+' },
+  { icon: FaCode, value: '5+' },
+  { icon: FaUsers, value: '90+' },
 ];
 
 export default function HomePage() {

@@ -2,44 +2,44 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import { FaReact, FaNodeJs, FaMobileAlt, FaDatabase, FaCloud, FaCubes, FaUsers, FaComments, FaLightbulb, FaHandshake, FaSyncAlt, FaPalette } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaTools, FaDatabase, FaCloud, FaCubes, FaUsers, FaComments, FaLightbulb, FaHandshake, FaSyncAlt, FaRobot } from 'react-icons/fa';
 import styles from './page.module.css';
 
 const technicalSkills = [
   {
     key: 'frontend',
     icon: FaReact,
-    techs: ['React', 'Next.js', 'Vue.js', 'Angular', 'TypeScript', 'HTML/CSS'],
-    level: 92,
+    techs: ['Salesforce LWC', 'JavaScript', 'CSS', 'HTML', 'React', 'Next.js'],
+    level: 95,
   },
   {
     key: 'backend',
     icon: FaNodeJs,
-    techs: ['Node.js', 'Java', 'Python', 'Go', 'Spring Boot', 'Express'],
-    level: 88,
+    techs: ['Apex', 'SOQL', 'Node.js', 'PHP', 'REST API', 'Triggers'],
+    level: 82,
   },
   {
     key: 'mobile',
-    icon: FaMobileAlt,
-    techs: ['React Native', 'Flutter', 'iOS', 'Android'],
-    level: 78,
+    icon: FaTools,
+    techs: ['React', 'TypeScript', 'Chart.js', 'Framer Motion', 'Git', 'VS Code'],
+    level: 88,
   },
   {
     key: 'database',
     icon: FaDatabase,
-    techs: ['PostgreSQL', 'MongoDB', 'Redis', 'Oracle', 'MySQL', 'InfluxDB'],
-    level: 85,
+    techs: ['SOQL', 'SOSL', 'SQL', 'PostgreSQL', 'MySQL', 'Data Modeling'],
+    level: 78,
   },
   {
     key: 'cloud',
     icon: FaCloud,
-    techs: ['AWS', 'GCP', 'Docker', 'Kubernetes', 'CI/CD', 'Terraform'],
-    level: 82,
+    techs: ['Salesforce DX', 'CI/CD', 'Git', 'Scrum', 'Kanban', 'Agile'],
+    level: 85,
   },
   {
     key: 'architecture',
     icon: FaCubes,
-    techs: ['Microservices', 'REST API', 'GraphQL', 'Event-Driven', 'DDD'],
+    techs: ['Component Architecture', 'REST API', 'Design Patterns', 'Scalability', 'Code Review'],
     level: 90,
   },
 ];
@@ -50,7 +50,7 @@ const personalSkillsData = [
   { key: 'problemSolving', icon: FaLightbulb },
   { key: 'teamwork', icon: FaHandshake },
   { key: 'adaptability', icon: FaSyncAlt },
-  { key: 'creativity', icon: FaPalette },
+  { key: 'creativity', icon: FaRobot },
 ];
 
 export default function SkillsPage() {

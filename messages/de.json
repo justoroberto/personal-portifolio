@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Roberto Justo | IT-Portfolio",
-    "description": "Professionelles Portfolio von Roberto Justo - IT-Spezialist mit umfangreicher Erfahrung in Softwareentwicklung und Technologielösungen."
+    "description": "Professionelles Portfolio von Roberto Justo - Front-End Tech Lead spezialisiert auf Salesforce, mit Erfahrung in nationalen und internationalen B2B E-Commerce Projekten."
   },
   "nav": {
     "home": "Startseite",
@@ -14,7 +14,7 @@
   "header": {
     "menu": "Menü",
     "closeMenu": "Menü schließen",
-    "selectLanguage": "Sprache auswählen"
+    "selectLanguage": "Sprache wählen"
   },
   "footer": {
     "madeBy": "Entwickelt von",
@@ -25,79 +25,132 @@
     "title": "Startseite",
     "heroTitle": "Hallo, ich bin",
     "heroName": "Roberto Justo",
-    "heroSubtitle": "IT-Profi & Softwareentwickler",
-    "heroDescription": "Leidenschaftlich für Technologie, Innovation und die Schaffung von Lösungen, die einen Unterschied machen. Mit jahrelanger Erfahrung in der IT-Branche verwandle ich komplexe Herausforderungen in elegante Lösungen.",
+    "heroSubtitle": "Front-End Tech Lead & Salesforce-Entwickler",
+    "heroDescription": "Mit jahrelanger Erfahrung in der Webentwicklung spezialisiere ich mich auf die Erstellung und Architektur von Salesforce-Anwendungen, mit Fokus auf B2B E-Commerce für nationale und internationale Kunden.",
     "storiesTitle": "Mein Werdegang",
     "storiesSubtitle": "Wichtige Meilensteine meiner Karriere",
     "summaryTitle": "Berufliche Zusammenfassung",
-    "summaryText": "IT-Profi mit solider Erfahrung in Softwareentwicklung, Systemarchitektur und Technologielösungen. Mein Ansatz verbindet tiefgreifendes technisches Wissen mit der Fähigkeit, Geschäftsanforderungen zu verstehen.",
+    "summaryText": "Front-End Tech Lead mit solider Erfahrung in Webentwicklung und Salesforce-Anwendungsarchitektur. Meine Arbeit geht über den Code hinaus: Ich nehme an strategischen Meetings teil, nutze agile Methoden und trage zu technischen Entscheidungen bei. Derzeit baue ich auch Features und Projekte mit künstlicher Intelligenz.",
     "summaryHighlight1": "Jahre Erfahrung",
-    "summaryHighlight2": "Abgeschlossene Projekte",
-    "summaryHighlight3": "Beherrschte Technologien",
-    "summaryHighlight4": "Zufriedene Kunden",
-    "viewProjects": "Projekte Ansehen",
-    "contactMe": "Kontakt Aufnehmen",
+    "summaryHighlight2": "Gelieferte Projekte",
+    "summaryHighlight3": "Globale Märkte",
+    "summaryHighlight4": "Entwickelte Seiten",
+    "viewProjects": "Projekte ansehen",
+    "contactMe": "Kontaktieren",
     "stories": {
-      "story1": { "title": "Karrierebeginn", "year": "2015", "description": "Erste Schritte in der IT-Welt" },
-      "story2": { "title": "Erstes Großprojekt", "year": "2016", "description": "Leitung eines Entwicklungsteams" },
-      "story3": { "title": "Spezialisierung", "year": "2017", "description": "Vertiefung in neue Technologien" },
-      "story4": { "title": "Internationale Erfahrung", "year": "2018", "description": "Arbeit mit globalen Teams" },
-      "story5": { "title": "Tech Lead", "year": "2019", "description": "Leitung der technischen Architektur" },
-      "story6": { "title": "Innovationspreis", "year": "2020", "description": "Ausgezeichnet für innovative Lösung" },
-      "story7": { "title": "Neue Horizonte", "year": "2022", "description": "Neue Grenzen erkunden" },
-      "story8": { "title": "Aktuell", "year": "2024", "description": "Weiterentwicklung und Innovation" }
+      "story1": { "title": "Universität", "year": "2010", "description": "Einschreibung in Informationssysteme an der UFRRJ" },
+      "story2": { "title": "Erste Praktika", "year": "2011", "description": "IT-Praktika an der UFRRJ, Netzwerkwartung und Webportal-Entwicklung" },
+      "story3": { "title": "Unternehmenserfahrung", "year": "2013", "description": "Praktika bei Hildebrando Brasil und Globo.com" },
+      "story4": { "title": "Einstieg Salesforce", "year": "2018", "description": "Start bei iPremios als Salesforce-Entwickler" },
+      "story5": { "title": "Globale Projekte", "year": "2020", "description": "Mitarbeit an internationalen Projekten wie OmniRep und Commerce Lite" },
+      "story6": { "title": "Tech Lead Front-End", "year": "2022", "description": "Beförderung zum Front-End Tech Lead im All in One Projekt" },
+      "story7": { "title": "Globale Expansion", "year": "2024", "description": "Front-End-Leitung in 5 Märkten: Brasilien, Chile, Rumänien, Südafrika und Polen" },
+      "story8": { "title": "KI & Innovation", "year": "2026", "description": "Entwicklung von Features und Projekten mit künstlicher Intelligenz" }
     }
   },
   "personal": {
     "title": "Über Mich",
-    "subtitle": "Lernen Sie meine Geschichte und meinen Werdegang kennen",
-    "bio": "IT-Profi mit Leidenschaft für Technologie und Innovation. Ich habe einzigartige Fähigkeiten entwickelt, die es mir ermöglichen, komplexe Herausforderungen mit Kreativität und Effizienz zu bewältigen.",
+    "subtitle": "Lernen Sie meine Geschichte kennen",
+    "bio": "Mit jahrelanger Erfahrung in der Webentwicklung spezialisiere ich mich auf Salesforce-Anwendungen für E-Commerce. Engagiert für Best Practices, Qualität, Performance und Innovation.",
     "timelineTitle": "Meine Zeitleiste",
     "timelineSubtitle": "Meilensteine meines Werdegangs",
     "info": {
-      "location": "Standort", "locationValue": "Brasilien",
-      "education": "Ausbildung", "educationValue": "Informatik-Studium",
-      "experience": "Erfahrung", "experienceValue": "8+ Jahre in IT",
-      "languages": "Sprachen", "languagesValue": "Portugiesisch, Englisch, Spanisch"
+      "location": "Standort",
+      "locationValue": "Rio de Janeiro, Brasilien",
+      "education": "Bildung",
+      "educationValue": "Informationssysteme - UFRRJ",
+      "experience": "Erfahrung",
+      "experienceValue": "15+ Jahre in IT",
+      "languages": "Sprachen",
+      "languagesValue": "Portugiesisch, Englisch, Spanisch"
     },
     "timeline": {
-      "event1": { "date": "2015", "title": "Universität", "description": "Beginn des Informatikstudiums" },
-      "event2": { "date": "2016", "title": "Erstes Praktikum", "description": "Eintritt in ein Technologieunternehmen" },
-      "event3": { "date": "2017", "title": "Junior-Entwickler", "description": "Erste Vollzeitstelle" },
-      "event4": { "date": "2018", "title": "Mid-Level Entwickler", "description": "Beförderung mit mehr Verantwortung" },
-      "event5": { "date": "2019", "title": "Abschluss", "description": "Studienabschluss mit Auszeichnung" },
-      "event6": { "date": "2020", "title": "Senior-Entwickler", "description": "Beförderung zur Senior-Position" },
-      "event7": { "date": "2022", "title": "Tech Lead", "description": "Beginn der technischen Teamleitung" },
-      "event8": { "date": "2024", "title": "Aktuelle Position", "description": "Leitung innovativer Projekte" }
+      "event1": { "date": "2010", "title": "Universität", "description": "Einschreibung in Informationssysteme an der UFRRJ" },
+      "event2": { "date": "2011", "title": "Praktikum - DTA UFRRJ", "description": "Netzwerkwartung, Webportal und Hardware/Software-Support" },
+      "event3": { "date": "2012", "title": "Praktikum - COINFO UFRRJ", "description": "Wartung des Computernetzwerks der Universität" },
+      "event4": { "date": "2013", "title": "Hildebrando & Globo.com", "description": "Praktika in Infrastruktur und Betriebssystem-Support" },
+      "event5": { "date": "2014", "title": "Dozent - CODEP UFRRJ", "description": "Tabellenkalkulationskurs für UFRRJ-Mitarbeiter" },
+      "event6": { "date": "2017", "title": "Trainee - HS Informática", "description": "Produktsupport und PHP-Webentwicklung mit MVC-Framework" },
+      "event7": { "date": "2018", "title": "Salesforce Developer - iPremios", "description": "Start als Salesforce-Entwickler auf B2B-Portalen" },
+      "event8": { "date": "2022", "title": "Tech Lead Front-End", "description": "Beförderung zum Front-End Tech Lead im All in One Projekt" }
     }
   },
   "projects": {
     "title": "Projekte",
-    "subtitle": "Wichtigste Projekte, an denen ich mitgewirkt habe",
-    "viewMore": "Details Ansehen",
+    "subtitle": "Wichtige Projekte, an denen ich mitgewirkt habe",
+    "viewMore": "Details ansehen",
     "technologies": "Verwendete Technologien",
     "role": "Meine Rolle",
     "duration": "Dauer",
-    "project1": { "name": "E-Commerce-Plattform", "description": "Komplette E-Commerce-Plattform mit Zahlungsintegration.", "role": "Full Stack Entwickler", "duration": "12 Monate", "techs": "React, Node.js, PostgreSQL, AWS" },
-    "project2": { "name": "Unternehmens-CRM-System", "description": "Maßgeschneidertes CRM-System für ein Großunternehmen.", "role": "Backend-Leiter", "duration": "18 Monate", "techs": "Java, Spring Boot, Angular, Oracle" },
-    "project3": { "name": "Digitale Banking App", "description": "Native Mobile-App für digitales Banking.", "role": "Mobile-Entwickler", "duration": "10 Monate", "techs": "React Native, TypeScript, Firebase" },
-    "project4": { "name": "IoT-Monitoring Dashboard", "description": "Echtzeit-Überwachungsplattform für IoT-Geräte.", "role": "Frontend-Leiter", "duration": "8 Monate", "techs": "Vue.js, Python, MQTT, InfluxDB" },
-    "project5": { "name": "KI-Content-Plattform", "description": "Content-Management-Plattform mit KI-Empfehlungen.", "role": "Tech Lead", "duration": "14 Monate", "techs": "Next.js, Python, TensorFlow, GCP" },
-    "project6": { "name": "Logistik-Management-System", "description": "Komplette Logistikplattform für Flottenmanagement.", "role": "Lösungsarchitekt", "duration": "20 Monate", "techs": "Microservices, Kubernetes, Go, React" }
+    "project1": {
+      "name": "All in One (AIO)",
+      "description": "Robustes Salesforce-Portal mit über 90 Seiten. Präsent in Brasilien, Chile, Rumänien, Südafrika und Polen.",
+      "role": "Front-End Tech Lead",
+      "duration": "4+ Jahre (laufend)",
+      "techs": "Salesforce LWC, Apex, JavaScript, CSS, SOQL"
+    },
+    "project2": {
+      "name": "Commerce Lite",
+      "description": "Lite-Salesforce-Portal für BAT-Einzelhändler zum Einkaufen und Verfolgen von Bestellungen.",
+      "role": "Senior Front-End-Entwickler",
+      "duration": "2 Jahre",
+      "techs": "Salesforce LWC, Apex, JavaScript, CSS"
+    },
+    "project3": {
+      "name": "OmniRep",
+      "description": "Salesforce-Portal für BAT-Vertriebsmitarbeiter mit Verkaufsdiagrammen nach Hierarchie.",
+      "role": "Front-End-Entwickler",
+      "duration": "1 Jahr",
+      "techs": "Salesforce LWC, Apex, JavaScript, CSS, Chart.js"
+    },
+    "project4": {
+      "name": "Commerce IQ Dashboards",
+      "description": "Business-Intelligence-Dashboards für Chile mit KI-gesteuerten Produktempfehlungen.",
+      "role": "Front-End-Entwickler",
+      "duration": "8 Monate",
+      "techs": "React, TypeScript, REST API, Chart.js"
+    },
+    "project5": {
+      "name": "Promotions Feature",
+      "description": "Komplexes System zur Registrierung von Promotionskombinationen, integriert in das AIO-Portal.",
+      "role": "Front-End Tech Lead",
+      "duration": "6 Monate",
+      "techs": "Salesforce LWC, Apex, SOQL, JavaScript"
+    },
+    "project6": {
+      "name": "Anfängliche B2B-Portale",
+      "description": "Gestaltung und Entwicklung von B2B-Portalen für Kunden wie Clube de Prêmios, Essilor und Conecta.",
+      "role": "Front-End-Entwickler",
+      "duration": "1 Jahr",
+      "techs": "HTML, CSS, JavaScript, Salesforce"
+    }
   },
   "skills": {
     "title": "Fähigkeiten",
     "subtitle": "Technische und persönliche Kompetenzen",
     "technicalTitle": "Technische Fähigkeiten",
     "personalTitle": "Persönliche Fähigkeiten",
-    "technical": { "frontend": "Frontend-Entwicklung", "backend": "Backend-Entwicklung", "mobile": "Mobile Entwicklung", "database": "Datenbanken", "cloud": "Cloud & DevOps", "architecture": "Softwarearchitektur" },
+    "technical": {
+      "frontend": "Front-End-Entwicklung",
+      "backend": "Salesforce & Backend",
+      "mobile": "Frameworks & Tools",
+      "database": "Datenbanken & Abfragen",
+      "cloud": "DevOps & Methoden",
+      "architecture": "Architektur & Skalierbarkeit"
+    },
     "personalSkills": {
-      "leadership": "Führung", "leadershipDesc": "Erfahrung in der Leitung multidisziplinärer Teams",
-      "communication": "Kommunikation", "communicationDesc": "Klare und effektive Kommunikation auf allen Ebenen",
-      "problemSolving": "Problemlösung", "problemSolvingDesc": "Analytischer Ansatz für komplexe Herausforderungen",
-      "teamwork": "Teamarbeit", "teamworkDesc": "Ausgezeichnete Zusammenarbeit und Teamengagement",
-      "adaptability": "Anpassungsfähigkeit", "adaptabilityDesc": "Schnelle Anpassung an neue Technologien",
-      "creativity": "Kreativität", "creativityDesc": "Innovatives Denken und kreative Lösungen"
+      "leadership": "Technische Führung",
+      "leadershipDesc": "Leitung von Front-End-Teams in globalen Projekten",
+      "communication": "Kommunikation",
+      "communicationDesc": "Direkte Meetings mit Kunden und DevOps-Teams",
+      "problemSolving": "Problemlösung",
+      "problemSolvingDesc": "Analytischer Ansatz für komplexe Salesforce-Herausforderungen",
+      "teamwork": "Teamarbeit",
+      "teamworkDesc": "Zusammenarbeit mit verschiedenen Teams und agilen Methoden",
+      "adaptability": "Anpassungsfähigkeit",
+      "adaptabilityDesc": "Arbeit in verschiedenen internationalen Märkten",
+      "creativity": "KI-Innovation",
+      "creativityDesc": "Entwicklung von Features und Projekten mit künstlicher Intelligenz"
     }
   },
   "contact": {
@@ -110,10 +163,14 @@
     "message": "Nachricht",
     "send": "Nachricht Senden",
     "info": {
-      "emailTitle": "E-Mail", "emailValue": "roberto@example.com",
-      "phoneTitle": "Telefon", "phoneValue": "+55 (11) 99999-9999",
-      "locationTitle": "Standort", "locationValue": "São Paulo, Brasilien",
-      "linkedinTitle": "LinkedIn", "githubTitle": "GitHub"
+      "emailTitle": "E-Mail",
+      "emailValue": "roberto@example.com",
+      "phoneTitle": "Telefon",
+      "phoneValue": "+55 (11) 99999-9999",
+      "locationTitle": "Standort",
+      "locationValue": "Rio de Janeiro, Brasilien",
+      "linkedinTitle": "LinkedIn",
+      "githubTitle": "GitHub"
     },
     "successMessage": "Nachricht erfolgreich gesendet!",
     "namePlaceholder": "Ihr Name",
@@ -125,14 +182,14 @@
     "title": "Kuriositäten",
     "subtitle": "Lustige Fakten und Interessen über mich",
     "items": {
-      "item1": { "title": "Kaffeeliebhaber", "description": "Ich trinke etwa 5 Tassen Kaffee am Tag." },
-      "item2": { "title": "Early Adopter", "description": "Ich teste gerne neue Technologien sofort nach Erscheinen." },
+      "item1": { "title": "Kaffeeliebhaber", "description": "Ich trinke etwa 5 Tassen Kaffee pro Tag." },
+      "item2": { "title": "Early Adopter", "description": "Ich liebe es, neue Technologien sofort zu testen." },
       "item3": { "title": "Open Source", "description": "Ich trage aktiv zu Open-Source-Projekten bei." },
       "item4": { "title": "Gaming", "description": "Begeisterter Strategiespieler." },
       "item5": { "title": "Reisen", "description": "Ich habe über 10 Länder besucht." },
       "item6": { "title": "Musik", "description": "Ich programmiere immer mit Musik." },
       "item7": { "title": "Fitness", "description": "Ein gesunder Körper führt zu einem produktiven Geist." },
-      "item8": { "title": "Kontinuierliches Lernen", "description": "Ich widme mindestens 1 Stunde täglich dem Lernen." }
+      "item8": { "title": "Kontinuierliches Lernen", "description": "Ich widme mindestens 1 Stunde pro Tag dem Lernen." }
     }
   }
 }
