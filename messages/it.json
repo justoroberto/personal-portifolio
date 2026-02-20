@@ -34,18 +34,20 @@
     "summaryHighlight1": "Anni di Esperienza",
     "summaryHighlight2": "Progetti Consegnati",
     "summaryHighlight3": "Mercati Globali",
-    "summaryHighlight4": "Pagine Sviluppate",
+    "summaryHighlight4": "Tecnologie Padroneggiate",
     "viewProjects": "Vedi Progetti",
     "contactMe": "Contattami",
     "stories": {
       "story1": { "title": "Università", "year": "2010", "description": "Iscrizione in Sistemi Informativi presso l'UFRRJ" },
       "story2": { "title": "Primi Stage", "year": "2011", "description": "Stage IT all'UFRRJ, manutenzione reti e creazione portali web" },
       "story3": { "title": "Esperienza Aziendale", "year": "2013", "description": "Stage presso Hildebrando Brasil e Globo.com" },
-      "story4": { "title": "Ingresso Salesforce", "year": "2018", "description": "Inizio presso iPremios come Sviluppatore Salesforce" },
-      "story5": { "title": "Progetti Globali", "year": "2020", "description": "Partecipazione a progetti internazionali come OmniRep e Commerce Lite" },
-      "story6": { "title": "Tech Lead Front-End", "year": "2022", "description": "Promozione a Leader Tecnico Front-End nel progetto All in One" },
-      "story7": { "title": "Espansione Globale", "year": "2024", "description": "Leadership front-end in 5 mercati: Brasile, Cile, Romania, Sudafrica e Polonia" },
-      "story8": { "title": "IA & Innovazione", "year": "2026", "description": "Costruzione di feature e progetti con intelligenza artificiale" }
+      "story4": { "title": "Formatore Universitario", "year": "2014", "description": "Formatore al CODEP/UFRRJ, insegnamento di foglio elettronico per dipendenti per 2 anni" },
+      "story5": { "title": "Trainee in Sviluppo", "year": "2017", "description": "Trainee presso HS Informática, supporto prodotto e sviluppo web PHP con framework MVC" },
+      "story6": { "title": "Ingresso Salesforce", "year": "2018", "description": "Inizio presso iPremios come Sviluppatore Salesforce" },
+      "story7": { "title": "Progetti Globali", "year": "2020", "description": "Partecipazione a progetti internazionali come OmniRep e Commerce Lite" },
+      "story8": { "title": "Tech Lead Front-End", "year": "2022", "description": "Promozione a Leader Tecnico Front-End nel progetto All in One" },
+      "story9": { "title": "Espansione Globale", "year": "2024", "description": "Leadership front-end in 5 mercati: Brasile, Cile, Romania, Sudafrica e Polonia" },
+      "story10": { "title": "IA & Innovazione", "year": "2026", "description": "Costruzione di feature e progetti con intelligenza artificiale" }
     }
   },
   "personal": {
@@ -84,45 +86,52 @@
     "duration": "Durata",
     "project1": {
       "name": "All in One (AIO)",
-      "description": "Portale robusto in Salesforce con oltre 90 pagine. Presente in Brasile, Cile, Romania, Sudafrica e Polonia.",
+      "description": "Portale robusto in Salesforce con oltre 90 pagine, funzionante come e-commerce e portale B2B. Consente ai rivenditori di acquistare prodotti, accedere alle promozioni e ottenere sconti. Disponibile in 5 mercati — Brasile, Cile, Romania, Sudafrica e Polonia.",
       "role": "Leader Tecnico Front-End",
-      "duration": "4+ anni (in corso)",
+      "duration": "3+ anni (in corso)",
       "techs": "Salesforce LWC, Apex, JavaScript, CSS, SOQL"
     },
     "project2": {
       "name": "Commerce Lite",
-      "description": "Portale Lite Salesforce per i rivenditori BAT per acquistare prodotti e monitorare ordini.",
-      "role": "Sviluppatore Front-End Senior",
+      "description": "Portale Lite Salesforce per i rivenditori BAT per acquistare prodotti, accedere alle promozioni e monitorare ordini. Implementato in Brasile, Polonia, Malesia e Sudafrica.",
+      "role": "Sviluppatore Front-End",
       "duration": "2 anni",
-      "techs": "Salesforce LWC, Apex, JavaScript, CSS"
+      "techs": "Salesforce Aura Component, Apex, JavaScript, CSS"
     },
     "project3": {
       "name": "OmniRep",
-      "description": "Portale Salesforce per i rappresentanti di vendita BAT con grafici vendite per gerarchia.",
+      "description": "Portale Salesforce per i rappresentanti di vendita BAT con grafici vendite organizzati per gerarchia — Area, Regionale, Territorio e Rivenditore. Implementato in Brasile, Sudafrica e Nuova Zelanda.",
       "role": "Sviluppatore Front-End",
       "duration": "1 anno",
-      "techs": "Salesforce LWC, Apex, JavaScript, CSS, Chart.js"
+      "techs": "Salesforce Aura Component, JavaScript, CSS"
     },
     "project4": {
-      "name": "Commerce IQ Dashboards",
-      "description": "Dashboard di business intelligence per il Cile con raccomandazioni prodotti basate su IA.",
+      "name": "Commerce IQ (AIO)",
+      "description": "Feature intelligente integrata in All in One, che offre prodotti basati su metriche intelligenti. Un motore classifica i prodotti: acquistati insieme, simili e non ancora acquistati. Il portale li mostra in caroselli dinamici con interazioni hover. Attivo in Brasile, Cile e Sudafrica.",
       "role": "Sviluppatore Front-End",
-      "duration": "8 mesi",
-      "techs": "React, TypeScript, REST API, Chart.js"
+      "duration": "1 anno (in corso)",
+      "techs": "Salesforce LWC, Apex, JavaScript, CSS, SOQL"
     },
     "project5": {
-      "name": "Feature Promozioni",
-      "description": "Sistema complesso di registrazione combinazioni promozionali integrato nel portale AIO.",
+      "name": "Promotions (AIO)",
+      "description": "Feature in All in One per offrire promozioni sugli acquisti dei rivenditori. Le promozioni sono registrate tramite un portale admin e sincronizzate con Salesforce. Gli utenti combinano più promozioni con livelli progressivi di raggiungimento. Implementato in Brasile, Cile e Sudafrica.",
       "role": "Leader Tecnico Front-End",
-      "duration": "6 mesi",
-      "techs": "Salesforce LWC, Apex, SOQL, JavaScript"
+      "duration": "2+ anni (in corso)",
+      "techs": "Salesforce LWC, Apex, JavaScript, CSS, SOQL, Grails, ZK"
     },
     "project6": {
-      "name": "Portali B2B Iniziali",
-      "description": "Stilizzazione e sviluppo di portali B2B per clienti come Clube de Prêmios, Essilor e Conecta.",
+      "name": "BAT Elite",
+      "description": "Progetto integrato con All in One (Romania) di Salesforce, costruito fuori dall'ecosistema Salesforce. Portale B2B per accumulare punti e riscattarli in premi. Attivo in Romania.",
+      "role": "Sviluppatore Front-End",
+      "duration": "8 mesi (in corso)",
+      "techs": "React, Next.js"
+    },
+    "project7": {
+      "name": "B2B Commerce",
+      "description": "Portale e-commerce in Salesforce per rivenditori, con acquisti legati a promozioni e diverse dinamiche di sconto visualizzate in tempo reale. La sfida tecnica principale è stata il framework CloudCraze con le sue specificità.",
       "role": "Sviluppatore Front-End",
       "duration": "1 anno",
-      "techs": "HTML, CSS, JavaScript, Salesforce"
+      "techs": "CloudCraze, JavaScript, jQuery, CSS"
     }
   },
   "skills": {
@@ -182,14 +191,15 @@
     "title": "Curiosità",
     "subtitle": "Fatti divertenti e interessi su di me",
     "items": {
-      "item1": { "title": "Amante del Caffè", "description": "Consumo circa 5 tazze di caffè al giorno." },
-      "item2": { "title": "Early Adopter", "description": "Adoro testare le nuove tecnologie appena lanciate." },
-      "item3": { "title": "Open Source", "description": "Contribuisco attivamente ai progetti open source." },
-      "item4": { "title": "Gaming", "description": "Appassionato di giochi di strategia." },
-      "item5": { "title": "Viaggi", "description": "Ho visitato più di 10 paesi." },
-      "item6": { "title": "Musica", "description": "Programmo sempre con la musica." },
-      "item7": { "title": "Fitness", "description": "Un corpo sano porta a una mente produttiva." },
-      "item8": { "title": "Apprendimento Continuo", "description": "Dedico almeno 1 ora al giorno per imparare qualcosa di nuovo." }
+      "item1": { "title": "Appassionato di Calcio", "description": "Seguo il calcio da sempre. Adoro guardare competizioni da tutto il mondo e mi entusiasmo ancora di più durante i Mondiali." },
+      "item2": { "title": "Musica", "description": "Appassionato di musica, soprattutto rock classico e i grandi successi degli anni 70 e 80." },
+      "item3": { "title": "Amicizia", "description": "Apprezzo molto il tempo con gli amici. Ritrovarsi per chiacchierare, buon cibo e una birra fresca è uno dei miei piaceri più grandi." },
+      "item4": { "title": "Gaming", "description": "Mi piacciono i videogiochi, soprattutto classici come FIFA, Mortal Kombat e Need for Speed. Fan del retro gaming — Street Fighter, The King of Fighters, Gran Turismo e altri titoli PS1 e Mega Drive." },
+      "item5": { "title": "Apprendimento Continuo", "description": "Ogni giorno dedico tempo ad imparare qualcosa di nuovo, anche fuori dal mio campo. La curiosità è il motore che mi fa evolvere." },
+      "item6": { "title": "Adattabilità", "description": "Mi adatto facilmente a qualsiasi ambiente o sfida. Posso svolgere praticamente qualsiasi compito e faccio amicizia facilmente." },
+      "item7": { "title": "Famiglia", "description": "Amo la mia famiglia. Il mio mondo ruota intorno a mia moglie Fernanda e alla nostra cagnolina Malu. Godermi ogni momento con loro è ciò che mi rende più felice." },
+      "item8": { "title": "Viaggiare", "description": "Adoro scoprire nuovi posti e vivere ogni momento del viaggio al massimo. Quando è ora di tornare, vorrei sempre restare un po' di più." },
+      "item9": { "title": "Guidare", "description": "Per quanto incredibile possa sembrare, adoro mettermi in strada — da solo o in famiglia. Guidare mi rilassa. Sono anche fan delle auto d'epoca; se potessi, ne avrei una classica come hobby." }
     }
   }
 }

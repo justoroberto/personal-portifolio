@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { FaExternalLinkAlt, FaClock, FaUserTie } from 'react-icons/fa';
 import styles from './page.module.css';
 
-const projectIcons = ['🛒', '📊', '🏦', '📡', '🤖', '🚛'];
+const projectIcons = ['🛒', '📊', '🏦', '📡', '🎯', '🏆', '💳'];
 const projectColors = [
   'rgba(74, 145, 112, 0.15)',
   'rgba(141, 110, 99, 0.15)',
@@ -14,13 +14,14 @@ const projectColors = [
   'rgba(93, 64, 55, 0.15)',
   'rgba(102, 168, 134, 0.15)',
   'rgba(161, 136, 127, 0.15)',
+  'rgba(74, 85, 104, 0.15)',
 ];
 
 export default function ProjectsPage() {
   const t = useTranslations('projects');
   const [expandedProject, setExpandedProject] = useState<number | null>(null);
 
-  const projects = Array.from({ length: 6 }, (_, i) => ({
+  const projects = Array.from({ length: 7 }, (_, i) => ({
     name: t(`project${i + 1}.name`),
     description: t(`project${i + 1}.description`),
     role: t(`project${i + 1}.role`),

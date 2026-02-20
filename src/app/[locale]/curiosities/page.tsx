@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import styles from './page.module.css';
 
-const curiosityEmojis = ['☕', '🔬', '💻', '🎮', '✈️', '🎵', '💪', '📚'];
+const curiosityEmojis = ['⚽', '🎸', '🍻', '🎮', '📚', '🤝', '❤️', '✈️', '🚗'];
 const curiosityColors = [
   'linear-gradient(135deg, #2c3e50, #7f8c8d)',
   'linear-gradient(135deg, #1b3a2d, #4a9170)',
@@ -14,12 +14,13 @@ const curiosityColors = [
   'linear-gradient(135deg, #4a5568, #a0aec0)',
   'linear-gradient(135deg, #1b3a2d, #81be9d)',
   'linear-gradient(135deg, #1f2937, #6b7280)',
+  'linear-gradient(135deg, #5d4037, #a1887f)',
 ];
 
 export default function CuriositiesPage() {
   const t = useTranslations('curiosities');
 
-  const curiosities = Array.from({ length: 8 }, (_, i) => ({
+  const curiosities = Array.from({ length: 9 }, (_, i) => ({
     title: t(`items.item${i + 1}.title`),
     description: t(`items.item${i + 1}.description`),
     emoji: curiosityEmojis[i],

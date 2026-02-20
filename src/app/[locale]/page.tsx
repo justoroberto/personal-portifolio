@@ -12,27 +12,29 @@ const storyGradients = [
   'linear-gradient(135deg, #1b3a2d, #4a9170)',
   'linear-gradient(135deg, #2c3e50, #7f8c8d)',
   'linear-gradient(135deg, #2e6b4f, #81be9d)',
+  'linear-gradient(135deg, #5d4037, #a1887f)',
   'linear-gradient(135deg, #4a5568, #a0aec0)',
   'linear-gradient(135deg, #1e4d3a, #66a886)',
   'linear-gradient(135deg, #374151, #9ca3af)',
   'linear-gradient(135deg, #3a7d5e, #a8d5be)',
   'linear-gradient(135deg, #1f2937, #6b7280)',
+  'linear-gradient(135deg, #2d3748, #718096)',
 ];
 
-const storyEmojis = ['🎓', '💻', '🏢', '☁️', '🌍', '👨‍💻', '🚀', '🤖'];
+const storyEmojis = ['🎓', '💻', '🏢', '📊', '🔧', '☁️', '🌍', '👨‍💻', '🚀', '🤖'];
 
 const highlights = [
   { icon: FaBriefcase, value: '15+' },
-  { icon: FaRocket, value: '15+' },
+  { icon: FaRocket, value: '20+' },
   { icon: FaCode, value: '5+' },
-  { icon: FaUsers, value: '90+' },
+  { icon: FaUsers, value: '15+' },
 ];
 
 export default function HomePage() {
   const t = useTranslations('home');
   const [activeStory, setActiveStory] = useState<number | null>(null);
 
-  const stories = Array.from({ length: 8 }, (_, i) => ({
+  const stories = Array.from({ length: 10 }, (_, i) => ({
     title: t(`stories.story${i + 1}.title`),
     year: t(`stories.story${i + 1}.year`),
     description: t(`stories.story${i + 1}.description`),
