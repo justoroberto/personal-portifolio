@@ -1,5 +1,5 @@
 import { NextIntlClientProvider, useMessages } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header/Header';
@@ -41,6 +41,8 @@ export default async function LocaleLayout({ children, params }: Props) {
   if (!routing.locales.includes(locale as typeof routing.locales[number])) {
     notFound();
   }
+
+  setRequestLocale(locale);
 
   const messages = (await import(`../../../messages/${locale}.json`)).default;
 
