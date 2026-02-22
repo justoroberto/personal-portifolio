@@ -5,7 +5,7 @@ import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { FaRocket, FaBriefcase, FaCode, FaUsers, FaArrowRight } from 'react-icons/fa';
+import { FaRocket, FaBriefcase, FaCode, FaUsers, FaArrowRight, FaGraduationCap, FaChalkboardTeacher, FaLaptopCode, FaBuilding, FaCogs, FaCloud, FaGlobe, FaUserTie, FaRobot } from 'react-icons/fa';
 import styles from './page.module.css';
 
 const storyGradients = [
@@ -21,7 +21,18 @@ const storyGradients = [
   'linear-gradient(135deg, #2d3748, #718096)',
 ];
 
-const storyEmojis = ['🎓', '💻', '🏢', '📊', '🔧', '☁️', '🌍', '👨‍💻', '🚀', '🤖'];
+const storyIcons = [
+  <FaGraduationCap key="s1" />,
+  <FaChalkboardTeacher key="s2" />,
+  <FaLaptopCode key="s3" />,
+  <FaBuilding key="s4" />,
+  <FaCogs key="s5" />,
+  <FaCloud key="s6" />,
+  <FaGlobe key="s7" />,
+  <FaUserTie key="s8" />,
+  <FaRocket key="s9" />,
+  <FaRobot key="s10" />,
+];
 
 const highlights = [
   { icon: FaBriefcase, value: '15+' },
@@ -39,7 +50,7 @@ export default function HomePage() {
     year: t(`stories.story${i + 1}.year`),
     description: t(`stories.story${i + 1}.description`),
     gradient: storyGradients[i],
-    emoji: storyEmojis[i],
+    icon: storyIcons[i],
   }));
 
   const highlightLabels = [
@@ -139,7 +150,7 @@ export default function HomePage() {
                 >
                   <div className={styles.storyRing}>
                     <div className={styles.storyAvatar}>
-                      <span className={styles.storyEmoji}>{story.emoji}</span>
+                      <span className={styles.storyEmoji}>{story.icon}</span>
                     </div>
                   </div>
                   <span className={styles.storyYear}>{story.year}</span>

@@ -173,13 +173,12 @@
     "send": "Отправить Сообщение",
     "info": {
       "emailTitle": "Email",
-      "emailValue": "roberto@example.com",
+      "emailValue": "justoroberto20@gmail.com",
       "phoneTitle": "Телефон",
-      "phoneValue": "+55 (11) 99999-9999",
+      "phoneValue": "+55 21 98372-6512",
       "locationTitle": "Местоположение",
       "locationValue": "Рио-де-Жанейро, Бразилия",
-      "linkedinTitle": "LinkedIn",
-      "githubTitle": "GitHub"
+      "linkedinTitle": "LinkedIn"
     },
     "successMessage": "Сообщение успешно отправлено!",
     "namePlaceholder": "Ваше имя",

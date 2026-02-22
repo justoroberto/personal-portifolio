@@ -173,13 +173,12 @@
     "send": "Enviar Mensaje",
     "info": {
       "emailTitle": "Correo",
-      "emailValue": "roberto@example.com",
+      "emailValue": "justoroberto20@gmail.com",
       "phoneTitle": "Teléfono",
-      "phoneValue": "+55 (11) 99999-9999",
+      "phoneValue": "+55 21 98372-6512",
       "locationTitle": "Ubicación",
       "locationValue": "Río de Janeiro, Brasil",
-      "linkedinTitle": "LinkedIn",
-      "githubTitle": "GitHub"
+      "linkedinTitle": "LinkedIn"
     },
     "successMessage": "¡Mensaje enviado con éxito!",
     "namePlaceholder": "Tu nombre",

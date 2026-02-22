@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import LanguageSelector from '../LanguageSelector/LanguageSelector';
 import styles from './Footer.module.css';
-import { FaGithub, FaLinkedin, FaHeart } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -20,15 +20,14 @@ export default function Footer() {
               <span className={styles.brandText}>Roberto Justo</span>
             </div>
             <p className={styles.madeBy}>
-              {t('madeBy')} <span className={styles.highlight}>Roberto Justo</span>{' '}
-              <FaHeart className={styles.heart} />
+              {t('madeBy')} <span className={styles.highlight}>Roberto Justo</span>
             </p>
           </div>
 
           <div className={styles.center}>
             <div className={styles.social}>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/roberto-justo-415a8661/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.socialLink}
@@ -36,16 +35,6 @@ export default function Footer() {
                 id="footer-linkedin"
               >
                 <FaLinkedin />
-              </a>
-              <a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.socialLink}
-                aria-label="GitHub"
-                id="footer-github"
-              >
-                <FaGithub />
               </a>
             </div>
           </div>

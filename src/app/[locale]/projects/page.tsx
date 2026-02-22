@@ -3,10 +3,18 @@
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { FaExternalLinkAlt, FaClock, FaUserTie } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaClock, FaUserTie, FaShoppingCart, FaChartBar, FaUniversity, FaSatelliteDish, FaBullseye, FaTrophy, FaCreditCard } from 'react-icons/fa';
 import styles from './page.module.css';
 
-const projectIcons = ['🛒', '📊', '🏦', '📡', '🎯', '🏆', '💳'];
+const projectIcons = [
+  <FaShoppingCart key="p1" />,
+  <FaChartBar key="p2" />,
+  <FaUniversity key="p3" />,
+  <FaSatelliteDish key="p4" />,
+  <FaBullseye key="p5" />,
+  <FaTrophy key="p6" />,
+  <FaCreditCard key="p7" />,
+];
 const projectColors = [
   'rgba(74, 145, 112, 0.15)',
   'rgba(141, 110, 99, 0.15)',

@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub, FaPaperPlane, FaCheckCircle } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaPaperPlane, FaCheckCircle } from 'react-icons/fa';
 import styles from './page.module.css';
 
 export default function ContactPage() {
@@ -24,11 +24,10 @@ export default function ContactPage() {
   };
 
   const contactInfo = [
-    { icon: FaEnvelope, title: t('info.emailTitle'), value: t('info.emailValue'), href: `mailto:${t('info.emailValue')}` },
-    { icon: FaPhone, title: t('info.phoneTitle'), value: t('info.phoneValue'), href: `tel:${t('info.phoneValue')}` },
+    { icon: FaEnvelope, title: t('info.emailTitle'), value: 'justoroberto20@gmail.com', href: 'mailto:justoroberto20@gmail.com' },
+    { icon: FaPhone, title: t('info.phoneTitle'), value: '+55 21 98372-6512', href: 'tel:+5521983726512' },
     { icon: FaMapMarkerAlt, title: t('info.locationTitle'), value: t('info.locationValue'), href: '#' },
-    { icon: FaLinkedin, title: t('info.linkedinTitle'), value: 'linkedin.com/in/robertojusto', href: 'https://linkedin.com' },
-    { icon: FaGithub, title: t('info.githubTitle'), value: 'github.com/robertojusto', href: 'https://github.com' },
+    { icon: FaLinkedin, title: t('info.linkedinTitle'), value: 'linkedin.com/in/roberto-justo', href: 'https://www.linkedin.com/in/roberto-justo-415a8661/' },
   ];
 
   return (

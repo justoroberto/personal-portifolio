@@ -3,11 +3,19 @@
 import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
-import { FaMapMarkerAlt, FaGraduationCap, FaBriefcase, FaLanguage, FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaGraduationCap, FaBriefcase, FaLanguage, FaChevronLeft, FaChevronRight, FaTimes, FaLaptopCode, FaRocket, FaChartLine, FaAward, FaStar, FaUserTie } from 'react-icons/fa';
+import { HiOutlineFire } from 'react-icons/hi';
 import styles from './page.module.css';
 
-const timelineImages = [
-  '🎓', '💻', '🚀', '📈', '🎉', '⭐', '👨‍💼', '🔥'
+const timelineIcons = [
+  <FaGraduationCap key="t1" />,
+  <FaLaptopCode key="t2" />,
+  <FaRocket key="t3" />,
+  <FaChartLine key="t4" />,
+  <FaAward key="t5" />,
+  <FaStar key="t6" />,
+  <FaUserTie key="t7" />,
+  <HiOutlineFire key="t8" />,
 ];
 
 export default function PersonalPage() {
@@ -26,7 +34,7 @@ export default function PersonalPage() {
     date: t(`timeline.event${i + 1}.date`),
     title: t(`timeline.event${i + 1}.title`),
     description: t(`timeline.event${i + 1}.description`),
-    emoji: timelineImages[i],
+    icon: timelineIcons[i],
   }));
 
   const handlePrev = () => {
@@ -118,7 +126,7 @@ export default function PersonalPage() {
                       id={`timeline-event-${index}`}
                     >
                       <div className={styles.nodeCircle}>
-                        <span className={styles.nodeEmoji}>{event.emoji}</span>
+                        <span className={styles.nodeEmoji}>{event.icon}</span>
                       </div>
                       <span className={styles.nodeDate}>{event.date}</span>
                       <span className={styles.nodeTitle}>{event.title}</span>
@@ -158,7 +166,7 @@ export default function PersonalPage() {
 
                     <div className={styles.carouselContent}>
                       <div className={styles.carouselImageArea}>
-                        <span className={styles.carouselEmoji}>{timelineEvents[selectedEvent].emoji}</span>
+                        <span className={styles.carouselEmoji}>{timelineEvents[selectedEvent].icon}</span>
                       </div>
                       <div className={styles.carouselInfo}>
                         <span className={styles.carouselDate}>{timelineEvents[selectedEvent].date}</span>

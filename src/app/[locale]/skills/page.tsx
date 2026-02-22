@@ -9,38 +9,32 @@ const technicalSkills = [
   {
     key: 'frontend',
     icon: FaReact,
-    techs: ['Salesforce LWC', 'JavaScript', 'CSS', 'HTML', 'React', 'Next.js'],
-    level: 95,
+    techs: ['Salesforce LWC', 'JavaScript', 'CSS', 'HTML', 'React', 'Next.js', 'CloudCraze'],
   },
   {
     key: 'backend',
     icon: FaNodeJs,
-    techs: ['Apex', 'SOQL', 'Node.js', 'PHP', 'REST API', 'Triggers'],
-    level: 82,
+    techs: ['Apex', 'Node.js', 'REST API', 'Groovy'],
   },
   {
     key: 'mobile',
     icon: FaTools,
-    techs: ['React', 'TypeScript', 'Chart.js', 'Framer Motion', 'Git', 'VS Code'],
-    level: 88,
+    techs: ['React', 'TypeScript', 'Chart.js', 'Git', 'VS Code'],
   },
   {
     key: 'database',
     icon: FaDatabase,
-    techs: ['SOQL', 'SOSL', 'SQL', 'PostgreSQL', 'MySQL', 'Data Modeling'],
-    level: 78,
+    techs: ['SOQL', 'SQL', 'PostgreSQL', 'MySQL', 'Data Modeling'],
   },
   {
     key: 'cloud',
     icon: FaCloud,
-    techs: ['Salesforce DX', 'CI/CD', 'Git', 'Scrum', 'Kanban', 'Agile'],
-    level: 85,
+    techs: ['Salesforce DX', 'Git', 'Scrum', 'Kanban'],
   },
   {
     key: 'architecture',
     icon: FaCubes,
     techs: ['Component Architecture', 'REST API', 'Design Patterns', 'Scalability', 'Code Review'],
-    level: 90,
   },
 ];
 
@@ -98,17 +92,6 @@ export default function SkillsPage() {
                       <Icon />
                     </div>
                     <h3 className={styles.skillName}>{t(`technical.${skill.key}`)}</h3>
-                  </div>
-
-                  <div className={styles.progressBar}>
-                    <motion.div
-                      className={styles.progressFill}
-                      initial={{ width: 0 }}
-                      whileInView={{ width: `${skill.level}%` }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 1, delay: 0.3 + index * 0.1 }}
-                    />
-                    <span className={styles.progressLabel}>{skill.level}%</span>
                   </div>
 
                   <div className={styles.techList}>
