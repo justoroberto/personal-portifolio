@@ -38,7 +38,7 @@
     "viewProjects": "Ver Projetos",
     "contactMe": "Fale Comigo",
     "stories": {
-      "story1": { "title": "Universidade", "year": "2010", "description": "Ingresso em Sistemas de Informação na UFRRJ, após excelente nota no ENEM e formação técnica pela FAETEC" },
+      "story1": { "title": "Universidade", "year": "2010", "description": "Ingresso em Sistemas de Informação na UFRRJ, após aprovação no ENEM e cursos profissionalizantes na FAETEC" },
       "story2": { "title": "Primeiros Estágios", "year": "2011", "description": "Estágios em TI na UFRRJ (DTA e COINFO), manutenção de redes e criação de portais web" },
       "story3": { "title": "Experiência Corporativa", "year": "2013", "description": "Estágios na Hildebrando Brasil e Globo.com, atuando com infraestrutura e sistemas operacionais" },
       "story4": { "title": "Instrutor na UFRRJ", "year": "2014", "description": "Instrutor no CODEP/UFRRJ, ministrando curso de Planilha Eletrônica para funcionários da universidade por 2 anos" },
@@ -67,7 +67,7 @@
       "languagesValue": "Português, Inglês, Espanhol"
     },
     "timeline": {
-      "event1": { "date": "2010", "title": "Universidade", "description": "Ingresso em Sistemas de Informação na UFRRJ, após aprovação no ENEM e cursos técnicos na FAETEC" },
+      "event1": { "date": "2010", "title": "Universidade", "description": "Ingresso em Sistemas de Informação na UFRRJ, após aprovação no ENEM e cursos profissionalizantes na FAETEC" },
       "event2": { "date": "2011", "title": "Estágio - DTA UFRRJ", "description": "Manutenção de rede, criação de portal web e suporte de hardware/software no laboratório de informática" },
       "event3": { "date": "2012", "title": "Estágio - COINFO UFRRJ", "description": "Manutenção da rede de computadores da universidade, suporte nível 2 e 3" },
       "event4": { "date": "2013", "title": "Hildebrando & Globo.com", "description": "Estágios em infraestrutura na Hildebrando Brasil e suporte a sistemas operacionais na Globo.com" },

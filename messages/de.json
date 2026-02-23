@@ -38,7 +38,7 @@
     "viewProjects": "Projekte ansehen",
     "contactMe": "Kontaktieren",
     "stories": {
-      "story1": { "title": "Universität", "year": "2010", "description": "Einschreibung in Informationssysteme an der UFRRJ" },
+      "story1": { "title": "Universität", "year": "2010", "description": "Einschreibung in Informationssysteme an der UFRRJ, nach Bestehen des ENEM und Berufsausbildung an der FAETEC" },
       "story2": { "title": "Erste Praktika", "year": "2011", "description": "IT-Praktika an der UFRRJ, Netzwerkwartung und Webportal-Entwicklung" },
       "story3": { "title": "Unternehmenserfahrung", "year": "2013", "description": "Praktika bei Hildebrando Brasil und Globo.com" },
       "story4": { "title": "Universitätsdozent", "year": "2014", "description": "Dozent am CODEP/UFRRJ, Tabellenkalkulationskurse für Mitarbeiter über 2 Jahre" },
@@ -67,7 +67,7 @@
       "languagesValue": "Portugiesisch, Englisch, Spanisch"
     },
     "timeline": {
-      "event1": { "date": "2010", "title": "Universität", "description": "Einschreibung in Informationssysteme an der UFRRJ" },
+      "event1": { "date": "2010", "title": "Universität", "description": "Einschreibung in Informationssysteme an der UFRRJ, nach Bestehen des ENEM und Berufsausbildung an der FAETEC" },
       "event2": { "date": "2011", "title": "Praktikum - DTA UFRRJ", "description": "Netzwerkwartung, Webportal und Hardware/Software-Support" },
       "event3": { "date": "2012", "title": "Praktikum - COINFO UFRRJ", "description": "Wartung des Computernetzwerks der Universität" },
       "event4": { "date": "2013", "title": "Hildebrando & Globo.com", "description": "Praktika in Infrastruktur und Betriebssystem-Support" },

@@ -38,7 +38,7 @@
     "viewProjects": "View Projects",
     "contactMe": "Contact Me",
     "stories": {
-      "story1": { "title": "University", "year": "2010", "description": "Enrolled in Information Systems at UFRRJ, after an excellent score on the national exam and technical training at FAETEC" },
+      "story1": { "title": "University", "year": "2010", "description": "Enrolled in Information Systems at UFRRJ, after passing the ENEM and vocational courses at FAETEC" },
       "story2": { "title": "First Internships", "year": "2011", "description": "IT internships at UFRRJ (DTA and COINFO), network maintenance and web portal development" },
       "story3": { "title": "Corporate Experience", "year": "2013", "description": "Internships at Hildebrando Brasil and Globo.com, working with infrastructure and operating systems" },
       "story4": { "title": "University Instructor", "year": "2014", "description": "Instructor at CODEP/UFRRJ, teaching Spreadsheet courses to university employees for 2 years" },
@@ -67,7 +67,7 @@
       "languagesValue": "Portuguese, English, Spanish"
     },
     "timeline": {
-      "event1": { "date": "2010", "title": "University", "description": "Enrolled in Information Systems at UFRRJ, after passing the national exam and technical courses at FAETEC" },
+      "event1": { "date": "2010", "title": "University", "description": "Enrolled in Information Systems at UFRRJ, after passing the ENEM and vocational courses at FAETEC" },
       "event2": { "date": "2011", "title": "Internship - DTA UFRRJ", "description": "Network maintenance, web portal creation, and hardware/software support in the computer lab" },
       "event3": { "date": "2012", "title": "Internship - COINFO UFRRJ", "description": "University computer network maintenance, level 2 and 3 support" },
       "event4": { "date": "2013", "title": "Hildebrando & Globo.com", "description": "Infrastructure internships at Hildebrando Brasil and OS support at Globo.com" },

@@ -38,7 +38,7 @@
     "viewProjects": "Voir les Projets",
     "contactMe": "Me Contacter",
     "stories": {
-      "story1": { "title": "Université", "year": "2010", "description": "Inscription en Systèmes d'Information à l'UFRRJ" },
+      "story1": { "title": "Université", "year": "2010", "description": "Inscription en Systèmes d'Information à l'UFRRJ, après réussite à l'ENEM et cours professionnels à la FAETEC" },
       "story2": { "title": "Premiers Stages", "year": "2011", "description": "Stages en informatique à l'UFRRJ, maintenance réseau et création de portails web" },
       "story3": { "title": "Expérience Corporate", "year": "2013", "description": "Stages chez Hildebrando Brasil et Globo.com" },
       "story4": { "title": "Formateur Universitaire", "year": "2014", "description": "Formateur au CODEP/UFRRJ, enseignement de tableur pour les employés pendant 2 ans" },
@@ -67,7 +67,7 @@
       "languagesValue": "Portugais, Anglais, Espagnol"
     },
     "timeline": {
-      "event1": { "date": "2010", "title": "Université", "description": "Inscription en Systèmes d'Information à l'UFRRJ" },
+      "event1": { "date": "2010", "title": "Université", "description": "Inscription en Systèmes d'Information à l'UFRRJ, après réussite à l'ENEM et cours professionnels à la FAETEC" },
       "event2": { "date": "2011", "title": "Stage - DTA UFRRJ", "description": "Maintenance réseau, portail web et support hardware/software" },
       "event3": { "date": "2012", "title": "Stage - COINFO UFRRJ", "description": "Maintenance réseau informatique de l'université" },
       "event4": { "date": "2013", "title": "Hildebrando & Globo.com", "description": "Stages en infrastructure et support systèmes" },

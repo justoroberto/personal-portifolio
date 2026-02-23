@@ -38,7 +38,7 @@
     "viewProjects": "Ver Proyectos",
     "contactMe": "Contáctame",
     "stories": {
-      "story1": { "title": "Universidad", "year": "2010", "description": "Ingreso a Sistemas de Información en la UFRRJ, tras excelente nota en el examen nacional" },
+      "story1": { "title": "Universidad", "year": "2010", "description": "Ingreso a Sistemas de Información en la UFRRJ, tras aprobación en el ENEM y cursos profesionales en FAETEC" },
       "story2": { "title": "Primeras Pasantías", "year": "2011", "description": "Pasantías en TI en la UFRRJ, mantenimiento de redes y creación de portales web" },
       "story3": { "title": "Experiencia Corporativa", "year": "2013", "description": "Pasantías en Hildebrando Brasil y Globo.com, infraestructura y sistemas operativos" },
       "story4": { "title": "Instructor Universitario", "year": "2014", "description": "Instructor en CODEP/UFRRJ, impartiendo curso de Planilla Electrónica para funcionarios durante 2 años" },
@@ -67,7 +67,7 @@
       "languagesValue": "Portugués, Inglés, Español"
     },
     "timeline": {
-      "event1": { "date": "2010", "title": "Universidad", "description": "Ingreso a Sistemas de Información en la UFRRJ" },
+      "event1": { "date": "2010", "title": "Universidad", "description": "Ingreso a Sistemas de Información en la UFRRJ, tras aprobación en el ENEM y cursos profesionales en FAETEC" },
       "event2": { "date": "2011", "title": "Pasantía - DTA UFRRJ", "description": "Mantenimiento de red, portal web y soporte de hardware/software" },
       "event3": { "date": "2012", "title": "Pasantía - COINFO UFRRJ", "description": "Mantenimiento de red de computadoras, soporte nivel 2 y 3" },
       "event4": { "date": "2013", "title": "Hildebrando & Globo.com", "description": "Pasantías en infraestructura y soporte a sistemas operativos" },
